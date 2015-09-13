@@ -1,4 +1,4 @@
-\documentclass[a4paper,10pt]{article}
+\documentclass[a4paper,10pt]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{graphics}
@@ -54,8 +54,9 @@ Data were collected during the $g11a$ run, by measuring the photo-production rea
 
 \end{abstract}
 \tableofcontents
-\section{Introduction}
-In this note I describe the analysis of the decay \decay performed using the extended Veneziano model developed by A.~Sczepaniak in \cite{Szczepaniak:2014qca}, described in Section~\ref{sec:model}.
+\chapter{Introduction}
+In this note I describe the analysis of the decay \decay performed using the extended Veneziano model developed by M.~Pennington and A.~Sczepaniak \cite{Szczepaniak:2014qca},
+described in Section~\ref{sec:model}.
 The amplitude employed to fit the data is constructed starting from a set of covariant Veneziano terms, resulting to a finite sum of partial waves that receive contributions from selected Regge trajectories, including the daughters, while still keeping the
 proper asymptotic limit. Given the phase-space available to the \decay decay process, data sensitivity is limited to the first $\pi \pi$ Regge trajectory, containing the $\rho(770$) pole. For this reason, the simple, linear parametrization of the real part of the Regge trajectory was employed. The imaginary
 part, instead, was ``ad-hoc'' tuned to reproduce the finite $\rho$ width.
@@ -75,8 +76,9 @@ to a weight (``Q-value''), that gives the probability for each event to originat
 Brian also provided me a large set of MonteCarlo events, generated according to a pure phase-space distribution, projected on the CLAS detector and then reconstructed using the ``standard'' CLAS procedures. 
 
 
-\section{\decay decay distribution}
-In this section, I describe the general features of the \decay decay distribution, with the $\omega$ produced in the reaction \production.
+\section{\decay decay distribution: general features}
+In this section, first I describe the general features of the \decay decay distribution, with the $\omega$ produced in the reaction \production.
+Then, I present the specific Extended Veneziano Model used to analyze data.
 I work in the ``Adair'' reference frame, defined as the $\omega$ rest frame, with the $z$ axis oriented along the photon momentum in the overall CM frame, and the scattered proton momentum lying in the $x-z$ plane.
 
 Five independent kinematic variables are necessary to describe this process. The orientation of the normal to the decay plane, $\hat{n}_D$, is defined by the two angles $\theta_A$ and $\phi_A$, while two more variables completely fix the kinematics
@@ -86,8 +88,6 @@ M_W^2-m^2_{\pi^+} -m^2_{\pi^-} - m^2_{\pi^0} = s + t + u \; \; \; ,
 \end{equation}
 where $s=m^2_{\pi^+ \pi^0}$, $t=m^2_{\pi^0 \pi^-}$, $u=m^2_{\pi^+ \pi^-}$ are the pion pair invariant masses squared. Finally, the last kinematic variable corresponds to an overall rotation around the $z$ axis: since neither the photon beam or the proton target are polarized,
 this rotation angle does not appear in the \decay decay distribution, and will be neglected.
-
-\subsection{General features of the \decay decay distribution}
 
 The general decay amplitude for the process $\omega \rightarrow \pi^+ \pi^- \pi^0$ follows directly from the $1^{--}$ nature of the $\omega$ meson:
 \begin{equation}
@@ -144,15 +144,137 @@ as shown excplicitely by Eq.~\ref{eq:rho}. For the kinematic range covered in th
 The $\omega$ decay intensity, reported in Eq.~\ref{eq:intensity}, shows a complete factorization between the angular variables $\theta_A,\phi_A$ and the Dalitz variables $s,t,u$: 
 this permits to simplify the maximum likelihood fit procedure, focusing only on the Dalitz part, as explained later in Sec.~\ref{sec:fitprocedure}.
 
-\subsection{Extended Veneziano Model}\label{sec:model}
+\section{Extended Veneziano Model}\label{sec:model}
+
+In the original Veneziano model \cite{Veneziano} for the reaction \decay, the scalar part of the amplitude is written as:
+\begin{equation}
+F(s,t,u)=(A_{n,m}(s,t)+A_{n,m}(t,u)+A_{n,m}(s,u)) \; \; \;
+\end{equation}
+with the $A_{n,m}$ function given by:
+\begin{equation}
+A_{n,m}(s,t)=\frac{ \Gamma(n-\alpha(s)) \Gamma(n-\alpha(t))}{\Gamma(n+m-\alpha(s)-\alpha(t))} 
+\end{equation}
+with $n,m$ positive integers, and $1\leq m \leq n$. 
+The lower limit on $m$ guarantees that $F(s, t, u)$ has the expected high-energy behavior and the upper limit eliminates double poles in overlapping channnels.
+$\alpha(s)=\alpha_0+s\alpha^\prime$ is the leading linear Regge trajectory, denoted as $\alpha_s$ in the following.
+
+The main properties of the original Veneziano amplitude are:
+\begin{itemize}
+\item Analyticity: $F$ is an analytic function of the Dalitz variables, with singularities given by \textbf{poles} for negative integer arguments of Gamma function 
+(double-poles are canceled by the denominator) and singularities of the Regge trajectory, typically cuts from =$\mathcal{I}(\alpha)$.
+\item Crossing symmetry
+\item Proper Regge asymptotic behaviour: $A_{n,m}(s,t) \rightarrow \frac{1}{s} \Gamma(n-\alpha_s) (-s)^{-\alpha^m_t}$.
+\end{itemize}
+
+Specifically, the amplitude spectrum is characterized, for fixed $n$, by an infinite number of simple poles,
+labeled by a non-negative integer $k$, that are located at $s=s_{n+k}$, satisfying:
+\begin{equation}\label{eq:poleloc}
+\alpha(s_{n+k})=n+k
+\end{equation}
+In the vicinity of each pole, the amplitude reads:
+\begin{equation}
+A_{n,m}(s,t) \simeq \frac{\beta_{n,m,k}(t)}{s-s_{n+k}}
+\end{equation}
+with the residue
+\begin{equation}
+\beta_{n,m,k}(t) = \frac{(-1)^k}{\alpha^{\prime}k!}\frac{\Gamma(n-\alpha_t)}{\Gamma(m-k-\alpha_t)}
+\end{equation}
+being a polynomial in $t$ of order $L_{max}=k+n-m$. 
+
+It follows, therefore, that the original Veneziano amplitude $F(s,t,u)$ describes, in each channel,
+an infinite number of zero-width overlapping resonances: for fixed $k$, the resonance spin $l$ is the range $1 \leq l \leq L_{max}+1$ 
+(the additional unit of angular momentum comes from the factor $\varepsilon_{\mu \nu \alpha \beta}\, p^{\nu}_{+}p^{\alpha}_{-}p^{\beta}_{0}\varepsilon^{\mu}_{\lambda}$ in the full decay amplitude).
+
+The two integers $n,m$ determine which resonances effectively contribute to the amplitude, while their location is uniquely determined by the form of the Regge trajectory trough Eq.~\ref{eq:poleloc}.
+
+The full reaction amplitude is, generally, a linear superposition of different terms, corresponding to different values of $n$ and $m$:
+\begin{equation}\label{eq:ampsum}
+A_{n,m}(s,t) \rightarrow A(s,t) = \sum_{n,m} c_{n,m}A_{n,m}(s,t) \; \; \; ,
+\end{equation}
+where the (complex) coefficients $c_{n,m}$ need to be determined from the data.
+
+In the past, different authors employed the Veneziano model, for example for the analysis of the at-rest process $N\overline{N}\rightarrow 3\pi$ \cite{Lovelace,Altarelli,Gopal}.
+However, these analysis were performed by truncating the sum of Eq.~\ref{eq:ampsum}, therefore selecting \textit{a-priori} the number of terms to include in the amplitude.
+
+The approach of Pennington and Sczepaniak is, instead, more systematic. 
+The amplitude is constructed starting from the non-truncated sum of Eq.~\ref{eq:ampsum}: instead of directly fitting the coefficients $c_{n,m}$ to the data, these are
+selected a-priori, in order to get an amplitude with a defined and known number of resonances. 
+
+I discuss excplitely the case of an amplitude containing only the pole $s_1$ at $\alpha_s=1$. This pole is present only in the term $A_{1,1}$, since all the others, with $n\geq2$,
+have poles at $\alpha_s\geq2$ (cfr. Eq~\ref{eq:poleloc}). The single coefficient $c_{1,1}$ determines the corresponding residue.
+However, the $A_{1,1}$ term also contains poles at higher $s$ values ($\alpha_s=2,3,\ldots)$, with residues that are polynomial in $t$ of order $1,2,\ldots$.
+These higher mass poles must be canceled by the same poles in amplitudes $A_{n,m}$ with $n\geq2$. It can be shown that this is achieved by selecting:
+\begin{equation}
+c_{n,1} = \frac{c_{1,1}}{\Gamma(n)} \; \; \; , \;  c_{n,2} = - \frac{c_{1,1}}{\Gamma(n-1)} \; \; \; , \; c_{n,m} = 0 \mbox{ for $m\geq 3$}
+\end{equation}
+The resulting amplitude is:
+\begin{equation}
+A_{1}(s,t)=c_{1,1}\frac{2-\alpha_s-\alpha_t}{(1-\alpha_s)(1-\alpha_t)}
+\end{equation}
+This can be generalized to construct the amplitude $A_{n}$ having only the poles at $\alpha_s=n$:
+\begin{equation}
+A_{n}(s,t)=\frac{(2n-\alpha_s-\alpha_t)}{(n-\alpha_s)(n-\alpha_t)}\sum_{i=1}^n c_{n,i} (-\alpha_s-\alpha_t)^{i-1}
+\end{equation}
+
+The large $s$ behaviour of $A_{n}$ is $s^{n-1}$ and not the expected Regge one, $s^{\alpha_t-1}$. Such a behavior, infact, can emerge only from an infinite number of $s-$channel poles,
+while, by construction, $A_{n}$ contains only a \textbf{finite} number of resonances, all located at $\alpha_s=n$. 
+Therefore, to restore the proper asymptotic behavior, other poles must be considered. 
+
+This can be done as follows.  Suppose that the ``typical'' energy scale of the reaction under anaylsis is $E_0$. If one introduces in the amplitude poles located at $\alpha_s \geq N$, 
+with $N=\alpha^{\prime}E^2_0$, these will contribute as a smooth background in the kinematic region of interest, with a negligible effect on the ``true'' resonances there present.
+However, their introduction permits to restore the Regge behavior. The $A_n$ amplitude now reads:
+\begin{equation}
+A_{n}(s,t;N)=\frac{(2n-\alpha_s-\alpha_t)}{(n-\alpha_s)(n-\alpha_t)}\sum_{i=1}^n c_{n,i} (-\alpha_s-\alpha_t)^{i-1}
+\cdot
+\frac{\Gamma(N+1-\alpha_s)\Gamma(N+1-\alpha_t)}{\Gamma(N+1-n)\Gamma(N+n+1-\alpha_s-\alpha_t)}
+\end{equation}
+The full reaction amplitude is here reported for completeness:
+\begin{equation}\label{eq:fullampl}
+A_\lambda(s,t,u) = \varepsilon_{\mu \nu \alpha \beta}\, p^{\nu}_{+}p^{\alpha}_{-}p^{\beta}_{0}\varepsilon^{\mu}_{\lambda} \, F(s,t,u) 
+=
+\varepsilon_{\mu \nu \alpha \beta}\, p^{\nu}_{+}p^{\alpha}_{-}p^{\beta}_{0}\varepsilon^{\mu}_{\lambda}
+\cdot
+\sum_{n=1}(A_{n}(s,t;N)+A_{n}(t,u;N)+A_{n}(s,u;N))
+\end{equation}
+
+\subsection{Application to the \decay decay}
+
+The application of the Pennington-Sczepaniak extended Veneziano model to the \decay decay is here discussed.
+\begin{itemize}
+\item The physical content of the decay amplitude scalar part follows from the nature of each $A_n$ factor. Specifically, $A_n(s,t)$ 
+contains poles at $\alpha_s=n$, with the residue
+ $$\beta_n=\sum^n_{i=1} c_{n,i} (-n-\alpha_t)^{i-1} \; \; \;$$
+being a polynomial in $t$ of order $n-1$.
+Considering the further unit of angular momentum carried by the factor $\varepsilon_{\mu \nu \alpha \beta}\, p^{\nu}_{+}p^{\alpha}_{-}p^{\beta}_{0}\varepsilon^{\mu}_{\lambda}$,
+it follows that $A_n$ describes the decay of the $\omega$ via the coupling to indermediate, degenerates, isospin-1 $\pi-\pi$ resonances (i.e. $\rho$ resonances),
+with angular momenta $1\ldots (n+1)$, i.e. $\omega \rightarrow \pi \rho \rightarrow \pi\pi\pi$
 
 
-\section{\decay : extended maximum likelihood fit procedure}\label{sec:fitprocedure}
+ 
+\item Bose statistics and isospin conservation require the full reaction amplitude to be symmetric for the exchange of any two pions. Since the kinematic factor
+ $\varepsilon_{\mu \nu \alpha \beta}\, p^{\nu}_{+}p^{\alpha}_{-}p^{\beta}_{0}\varepsilon^{\mu}_{\lambda}$ is manifestly anti-symmetric, the scalar part $F(s,t,u)$ must be anti-symmetric too.
+This forbids the presence of spin-even $\pi \pi$ resonances.
+
+This constraint must be applied at the level of the single factors $A_n$ that apper in the full reaction amplitude (cfr. Eq.~\ref{eq:fullampl}). 
+As said before, each $A_n$ contains poles at $\alpha_s=n$, with the residue being a polynomial in $t$ of order $n-1$.
+Decoupling of the spin-even resonances implies that $Res \, A_{n}$ should be an even function of $t$. This is obtained by fixing some of the coefficients $c_{n,i}$.
+
+For example, for $n=2$, $Res \, A_{2}=c_{2,1}-c_{2,2}(2+\alpha_t)$. The decoupling of the spin-2 resonance requires fixing $c_{2,2}=0$. This amplitude, therefore,
+describes \textbf{only} the coupling of the $\omega$ to the $\rho^\prime \pi$ system, being $\rho^\prime$ the spin-1 $\pi \pi$ resonance at $\alpha_s=2$, i.e. the $\rho_{1450}$.
+
+\item a
+\end{itemize}
+
+\section{Goal of the analysis}
+
+
+
+\chapter{\decay : extended maximum likelihood fit procedure}\label{sec:fitprocedure}
 
 In this section, I describe the procedure that I adopted to fit the extended Veneziano model to the \decay decay, via an extended maximum likelihood fit.
 In particular, I discuss what is the role of the production kinematic variables ($W$ and $\cos\theta_{CM}$) and observables (differential cross section and spin-density matrix elements).
 
-\subsection{Extended maximum likelihood fits}
+\section{Extended maximum likelihood fits}
 
 The goal of an extended maximum likelihood procedure is to fit a parametrized intensity for a certain reaction to a set of unbinned data, in order to extract the value of the corresponding free parameters and obtain 
 the acceptance-corrected event yield. The intensity normalization is always a free parameter in the fit.
@@ -194,7 +316,7 @@ and has to be calculated by MonteCarlo, generating a large set of $N_{gen}$ Mont
  This leaves $N_{acc}$ reconstructed events, for which $\varepsilon(\tau_i)=1$. 
 
 The mean value of total expected events is then given by:
-\begin{equation}\label{eq:PWA_TEO-7}
+\begin{equation}\label{eq:PWA_TEO-8}
 \mu(\vec{x})=\frac{\boldsymbol{\tau}}{N_{gen}}\sum_i^{N_{acc}} I(\tau_i,\vec{x}) \; \; \; ,
 \end{equation}
 where the factor $\boldsymbol{\tau}$ represents the total volume of the final state phase space.
@@ -206,7 +328,7 @@ Knowing the value of the free parameters in the intensity, the acceptance-correc
 \mu^0(\vec{x}) = \frac{\boldsymbol{\tau}}{N_{gen}}\sum_i^{N_{gen}} I(\tau_i,\vec{x}) \; \; \; 
 \end{equation}
 
-\subsubsection{Example: constant intensity}
+\subsection{Example: constant intensity}
 
 It is instructive to consider the case of a maximum likelihood fit performed with a constant intensity, $I=I_0$, where only the normalization factor $I_0$ (and thus the acceptance-corrected event yield) has to be determined.
 
@@ -224,7 +346,7 @@ The acceptance-corrected event yield is:
 \end{equation} 
 This result is in agreement with the ``classical'' acceptance-corrected event yield calculation, given by the ratio between the number of measured events and the experimental detector acceptance.
 
-\subsubsection{AmpTools software}
+\subsection{AmpTools software}
 In this analysis, I employed the AmpTools software to perform maximum likelihood fits to the data.
 AmpTools, designed by H. Matevosyan, R. Mitchell, and M. Shepherd at Indiana University, 
 is a collection of C++ libraries that are useful for performing unbinned maximum likelihood fits to data, 
@@ -240,7 +362,7 @@ The user has to write his own amplitudes, overriding this method.
 The user also needs to specify how amplitudes have to be summed, i.e. coherently or not, and the which are the free parameters to extract from the data.
 
 
-\subsection{Application to the \decay process}
+\section{Application to the \decay process}
 
 For the decay process \decay, the intensity expression that I fit to the data is that of Eq.~\ref{eq:intensity}. Here, I want to discuss the following points:
 \begin{itemize}
@@ -262,8 +384,7 @@ The answer to the first question, instead, comes from the following theorem (see
 The application of the theorem to this analysis permits to perform a maximum likelihood fit using only the ``reduced'' decay intensity $I^{R}_D=q^2\cdot |F(s,t,u)|^2$, provided that, before the fit, the ``weight'' 
 $w= \frac{d\sigma}{d\cos_{CM}}\cdot M^2_\omega \cdot W(\theta_A, \phi_A, \rho^\omega)$ is assigned to each of the generated and reconstructed MonteCarlo events. To do so, I used the values reported in \cite{Williams:2009ab}.
 
-
-\section{Data agreement with previous results}
+\chapter{Data agreement with previous results}
 
 Before proceeding further in the analysis, I performed a check to verify the agreement with the previous results from M.~Williams analysis. 
 As said before, the original dataset for that analysis was lost. Therefore, I could olny compare the published results, namely the differential cross section $\frac{d\sigma}{d\cos_{CM}}$ and the spin-density matrix elements.
@@ -273,7 +394,7 @@ Preliminarly, I compared the number of signal events (i.e. the non-acceptance co
 this comparison permits to identify any difference associated directly to the signal extraction from the measured data.
 
 
-\subsection{Procedure}
+\section{Procedure}
 I binned data in $W$ and $\cos \theta_{CM}$ bins. For $W$, I selected 45 bins from 2.0 to 2.45 GeV, each bin with a 10 MeV width, while for  $\cos \theta_{CM}$ I employed 16 bins, from -0.8 to +0.8, each bin with .1 width. This division is the 
 same as the one used in the original Williams paper. 
 
@@ -310,7 +431,7 @@ The corrected flux is reported in Fig.~\ref{fig:flux}}.
 
 The two event yields (M.~Williams analysis / this analysis) are reported in Fig.\ref{fig:events}, left panel. The right panel reports the event yields ratio, as a function of $W$.
 I decided to \textbf{not} quote any statistical or systematic error, since the two observables are extracted from the same dataset, using the same analysis procedure.
-Instead, I decided to quote a $1\%$ systematic error to the M.~Williams results, due to the data digitization procedure (from the PhD thesis).
+Instead, I decided to quote a $1\%$ systematic error to the M.~Williams results, due to the data digitization procedure (data were extracted from the plot on the PhD thesis).
 
 \begin{figure}[tpb]
 \centering
@@ -369,6 +490,8 @@ thesis, Carnegie Mellon University, 2007.
   %%CITATION = ARXIV:0804.3382;%%
   %2 citations counted in INSPIRE as of 31 Aug 2015
 
+
+
 %chapter 2
 \bibitem{Schilling:1969um} 
   K.~Schilling, P.~Seyboth and G.~E.~Wolf,
@@ -377,6 +500,16 @@ thesis, Carnegie Mellon University, 2007.
   [Nucl.\ Phys.\ B {\bf 18}, 332 (1970)].
   %%CITATION = NUPHA,B15,397;%%
   %212 citations counted in INSPIRE as of 31 Aug 2015
+\bibitem{Veneziano}
+ G.~Veneziano, Nuovo Cimento, 57 (1968)
+
+\bibitem{Lovelace}
+ C.~Lovelace, Phys. Lett. 25B (1968), 264
+\bibitem{Altarelli}
+G.~Altarelli, Phys. Rev. 183 (1969), 1469
+\bibitem{Gopal}
+G.~P.~Gopal, Phys. Rev. D 3 (1971), 2262
+
 
 \bibitem{AmpTools}
 H.~Matevosyan, R.~Mitchell and M.~Shepherd, \url{http://amptools.sourceforge.net/index.php/Main_Page}
@@ -395,7 +528,7 @@ with the Hall B Photon Tagger.'' CLAS Note 2005-002.
 
 
 \appendix 
-\section{Theorem}\label{app:theo}
+\chapter{Theorem}\label{app:theo}
 \begin{theorem}
 \printteolike
 \end{theorem}
@@ -406,7 +539,7 @@ with the Hall B Photon Tagger.'' CLAS Note 2005-002.
 
 
 
-\section{Data agreement with previous results: plots}\label{Appendix:xsec}
+\chapter{Data agreement with previous results: plots}\label{Appendix:xsec}
 %\includepdf[pages={1-},scale=0.75]{out.pdf}
 
 \forloop[1]{counter}{1}{\value{counter} < 45}{%
