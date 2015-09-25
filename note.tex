@@ -156,12 +156,12 @@ A_{n,m}(s,t)=\frac{ \Gamma(n-\alpha(s)) \Gamma(n-\alpha(t))}{\Gamma(n+m-\alpha(s
 \end{equation}
 with $n,m$ positive integers, and $1\leq m \leq n$. 
 The lower limit on $m$ guarantees that $F(s, t, u)$ has the expected high-energy behavior and the upper limit eliminates double poles in overlapping channnels.
-$\alpha(s)=\alpha_0+s\alpha^\prime$ is the leading linear Regge trajectory, denoted as $\alpha_s$ in the following.
+$\alpha(s)=\alpha_0+s\alpha^\prime$ is the leading linear Regge trajectory, denoted as $\alpha_s$ in the following. The nominal values of the Regge coefficients $\alpha_0$ and $\alpha^{\prime}$ are, respectively, 0.5 GeV and 0.9 GeV$^{-2}$.
 
 The main properties of the original Veneziano amplitude are:
 \begin{itemize}
 \item Analyticity: $F$ is an analytic function of the Dalitz variables, with singularities given by \textbf{poles} for negative integer arguments of Gamma function 
-(double-poles are canceled by the denominator) and singularities of the Regge trajectory, typically cuts from =$\mathcal{I}(\alpha)$.
+(double-poles are canceled by the denominator) and singularities of the Regge trajectory, typically cuts from $\mathcal{I}(\alpha)$.
 \item Crossing symmetry
 \item Proper Regge asymptotic behaviour: $A_{n,m}(s,t) \rightarrow \frac{1}{s} \Gamma(n-\alpha_s) (-s)^{-\alpha^m_t}$.
 \end{itemize}
@@ -171,7 +171,7 @@ labeled by a non-negative integer $k$, that are located at $s=s_{n+k}$, satisfyi
 \begin{equation}\label{eq:poleloc}
 \alpha(s_{n+k})=n+k
 \end{equation}
-In the vicinity of each pole, the amplitude reads:
+In the proximity of each pole, the amplitude reads:
 \begin{equation}
 A_{n,m}(s,t) \simeq \frac{\beta_{n,m,k}(t)}{s-s_{n+k}}
 \end{equation}
@@ -237,7 +237,7 @@ A_\lambda(s,t,u) = \varepsilon_{\mu \nu \alpha \beta}\, p^{\nu}_{+}p^{\alpha}_{-
 \sum_{n=1}(A_{n}(s,t;N)+A_{n}(t,u;N)+A_{n}(s,u;N))
 \end{equation}
 
-\subsection{Application to the \decay decay}
+\subsection{The \decay decay}
 
 The application of the Pennington-Sczepaniak extended Veneziano model to the \decay decay is here discussed.
 \begin{itemize}
@@ -262,11 +262,20 @@ Decoupling of the spin-even resonances implies that $Res \, A_{n}$ should be an 
 For example, for $n=2$, $Res \, A_{2}=c_{2,1}-c_{2,2}(2+\alpha_t)$. The decoupling of the spin-2 resonance requires fixing $c_{2,2}=0$. This amplitude, therefore,
 describes \textbf{only} the coupling of the $\omega$ to the $\rho^\prime \pi$ system, being $\rho^\prime$ the spin-1 $\pi \pi$ resonance at $\alpha_s=2$, i.e. the $\rho_{1450}$.
 
-\item a
+\item The nominal Regge trajectory parametrization, $\alpha_s=\alpha_0+s\cdot\alpha^{\prime}$ is purely real. Therefore, from Eq.~\ref{eq:poleloc} it follows that the poles contained in the extended Veneziano Model correspond to zero-width resonances. In order to re-introduce the finite $\rho$ resonances width, the trajectory is modified as follows:
+\begin{equation}
+\alpha_s=\alpha_0 + s \cdot \alpha^\prime + i g \sqrt{s-4m^2_\pi}
+\end{equation}
+The parameter $g$ determines the resonances width. The nominal value is $g=0.12$, corresponding, for the $\rho(770)$ state, to $\Gamma=0.124$ GeV.
 \end{itemize}
 
-\section{Goal of the analysis}
-
+\section{Goals of the analysis}
+The goals of this analysis are the following:
+\begin{itemize}
+\item Qualitatively verify that the extended Veneziano Model is able to reproduce the data for this reaction, adopting the nominal Regge trajectory parametrization. In order to evaluate systematic effects, the check is performed independently in different bins of the center-of-mass energy $W$: being this a production variable, no dependence on it is expected.
+\item Estimate the sensitivity to higher $\rho$ excited states, other than the $\rho(770)$, i.e. verify the effect of introducing in the amplitude the terms $A_{2}, A_{3},\ldots$. This is performed using the nominal Regge trajectory parametrization.
+\item Leave the Regge trajectory parameters $\alpha^{\prime},\, \alpha^{0},\,g $ as free parameters and fit them to the data, to determine the sensitivity to the $\rho(770)$ pole parameters. The fit is performed independently in bins of $W$ to evaluate the systematic effects.
+\end{itemize}
 
 
 \chapter{\decay : extended maximum likelihood fit procedure}\label{sec:fitprocedure}
@@ -382,7 +391,9 @@ The answer to the first question, instead, comes from the following theorem (see
 \end{theorem}
 
 The application of the theorem to this analysis permits to perform a maximum likelihood fit using only the ``reduced'' decay intensity $I^{R}_D=q^2\cdot |F(s,t,u)|^2$, provided that, before the fit, the ``weight'' 
-$w= \frac{d\sigma}{d\cos_{CM}}\cdot M^2_\omega \cdot W(\theta_A, \phi_A, \rho^\omega)$ is assigned to each of the generated and reconstructed MonteCarlo events. To do so, I used the values reported in \cite{Williams:2009ab}.
+$w= \frac{d\sigma}{d\cos_{CM}}\cdot M^2_\omega \cdot W(\theta_A, \phi_A, \rho^\omega)$ is assigned to each of the generated and reconstructed MonteCarlo events.
+
+To do so, I used the data reported in \cite{Williams:2009ab}, by performing a linear interpolation. 
 
 \chapter{Data agreement with previous results}
 
@@ -427,11 +438,15 @@ The corrected flux is reported in Fig.~\ref{fig:flux}}.
 \includegraphics[width=.7 \textwidth]{xsec/flux.eps}
 \caption{\label{fig:flux} The \textbf{corrected} photon flux incident on the target, as a function of $W$, together with the systematic error (3.04 $\%$).}
 \end{figure}
-\subsection{Results}
+\section{Results}
 
+\subsection{Event yield (not acceptance corrected)}
 The two event yields (M.~Williams analysis / this analysis) are reported in Fig.\ref{fig:events}, left panel. The right panel reports the event yields ratio, as a function of $W$.
+
 I decided to \textbf{not} quote any statistical or systematic error, since the two observables are extracted from the same dataset, using the same analysis procedure.
 Instead, I decided to quote a $1\%$ systematic error to the M.~Williams results, due to the data digitization procedure (data were extracted from the plot on the PhD thesis).
+
+The ratio $R$ manifestly shows a systematic trend, depending on the center-of-mass energy $W$. It decreases from $R\simeq 1$ at $W=2.00$ GeV to $R\simeq 0.92$ for $W > 2.10$ GeV, and then stabilizes. 
 
 \begin{figure}[tpb]
 \centering
@@ -441,14 +456,21 @@ Instead, I decided to quote a $1\%$ systematic error to the M.~Williams results,
 Right: ratio of the two event yield, as a function of $W$. See text for the description of the error bars.}
 \end{figure}
 
-
+\subsection{Cross section and spin-density matrix elements}
 The result of the cross-section and spin-density matrix comparison is reported, for all $W$ bins, in appendix~\ref{Appendix:xsec}. In each page, the top-left plot reports the cross-section, while the central-row plots report the spin-density matrix elements, as a function of $\cos{\theta}_{CM}$.
-The ratio between the two cross-sections is reported in the top-central plot. Results from M.~Williams analysis are reported in black, while results from this analysis are reported in red. 
 
-\subsection{Conclusions}
+The ratio between the two cross-sections is reported in the top-central plot. Results from M.~Williams analysis are reported in black, while results from this analysis are reported in red. The blue data points will be described in the next chapter. 
 
+\section{Conclusions}
 
-\section{Effect of $F \neq 1$}
+The agreement between the spin-density matrix elements determined in this analysis and those reported by M. Williams is very good, for all $W$ bins. 
+
+The ratio between the differential reaction cross-section reported determined in this analysis and that from M. Williams, instead, shows a systematic positive offset from the expected unitary value, for all $W$ bins.
+Since the not-acceptance corrected yield ratio is $\simeq 0.92$, this suggests the presence of some systematic effect in the acceptance calculation (i.e. on the MC events projection on CLAS and reconstruction), and/or in the photon flux determination. 
+
+Furthermore, for a given $W$ bin, the ratio fluctuates as a function of $\cos(\theta)$: 
+
+\chapter{Effect of $F \neq 1$}
 
 \subsection{Procedure}
 
