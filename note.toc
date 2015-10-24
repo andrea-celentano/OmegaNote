@@ -14,10 +14,11 @@
 \contentsline {section}{\numberline {3.2}Results}{13}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Event yield (not acceptance corrected)}{13}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Cross section and spin-density matrix elements}{14}{subsection.3.2.2}
+\contentsline {subsubsection}{The effect of $F\not =1$}{14}{section*.2}
 \contentsline {section}{\numberline {3.3}Conclusions}{14}{section.3.3}
-\contentsline {chapter}{\numberline {4}Effect of $F \not =1$}{15}{chapter.4}
-\contentsline {subsection}{\numberline {4.0.1}Procedure}{15}{subsection.4.0.1}
-\contentsline {subsection}{\numberline {4.0.2}Results}{15}{subsection.4.0.2}
-\contentsline {subsection}{\numberline {4.0.3}Conclusions}{15}{subsection.4.0.3}
-\contentsline {chapter}{\numberline {A}Theorem}{17}{appendix.A}
-\contentsline {chapter}{\numberline {B}Data agreement with previous results: plots}{18}{appendix.B}
+\contentsline {chapter}{\numberline {4}The scenario $F(s,t,u) \not =1$: systematic effects evaluation}{16}{chapter.4}
+\contentsline {section}{\numberline {4.1}Procedure}{16}{section.4.1}
+\contentsline {section}{\numberline {4.2}Results}{16}{section.4.2}
+\contentsline {section}{\numberline {4.3}Conclusions}{16}{section.4.3}
+\contentsline {chapter}{\numberline {A}Theorem}{18}{appendix.A}
+\contentsline {chapter}{\numberline {B}Data agreement with previous results: plots}{19}{appendix.B}

@@ -50,24 +50,24 @@ likelihood obtained by considering the $I_2$ factor only, provided that a weight
 In this note I describe the analysis of the decay \decay performed using an extended Veneziano model.
 The main goal of the analysis is to verify that the model is able to correctly describe the data, and to determine the corresponding free parameters (the Regge trajectory parameters) trough a maximum likelihood fit.
 From these, the $\rho$ meson pole parameters are obtained and compared to the corresponding PDG values.
-Data were collected during the $g11a$ run, by measuring the photo-production reaction \production in the energy range $2.0< W < 2.45$ GeV. 
+Data were collected during the \texttt{g11a} run, by measuring the photo-production reaction \production in the energy range $2.0< W < 2.45$ GeV. 
 
 \end{abstract}
 \tableofcontents
 \chapter{Introduction}
-In this note I describe the analysis of the decay \decay performed using the extended Veneziano model developed by M.~Pennington and A.~Sczepaniak \cite{Szczepaniak:2014qca},
+In this note I describe the analysis of the decay \decay performed using the extended Veneziano model developed by M.~Pennington and A.~Szczepaniak \cite{Szczepaniak:2014qca},
 described in Section~\ref{sec:model}.
 The amplitude employed to fit the data is constructed starting from a set of covariant Veneziano terms, resulting to a finite sum of partial waves that receive contributions from selected Regge trajectories, including the daughters, while still keeping the
 proper asymptotic limit. Given the phase-space available to the \decay decay process, data sensitivity is limited to the first $\pi \pi$ Regge trajectory, containing the $\rho(770$) pole. For this reason, the simple, linear parametrization of the real part of the Regge trajectory was employed. The imaginary
 part, instead, was ``ad-hoc'' tuned to reproduce the finite $\rho$ width.
 
-The data were collected at Jefferson Lab, using the CLAS detector, as part of the g11a run period in 2004. 
+The data were collected at Jefferson Lab, using the CLAS detector, as part of the \texttt{g11a} run period in 2004. 
 This data has been already analyzed by Mike~Williams to extract the differential $\omega$ photo-production cross-section $\frac{d\sigma}{dt}$
 and the $\omega$ spin density matrix elements $\rho_{00}$, $\rho_{1-1}$, $Re(\rho_{10})$, in the $\sqrt{s}$ range  from threshold up to 2.84 GeV \cite{Williams:2009ab}. 
 Unfortunately, the already-processed data, and the corresponding analysis tools, were lost few years ago when one of the raid disks at CMU crashed and was unable to be recovered \cite{BrianCommunication}.
 
 The data employed in this analysis comes from Brian~Vernansky PhD thesis.
-As a ``preliminary'' part of his work, Brian re-processed the original g11a data-set, starting from ``cooked'' data, to extract the above observables,
+As a ``preliminary'' part of his work, Brian re-processed the original \texttt{g11a} data-set, starting from ``cooked'' data, to extract the above observables,
 in order to tune the analysis tools and procedures that he later employed in the analysis of the g1c and g8b data. He strictly followed the original analysis procedure from Mike Williams, described in 
 \cite{Williams:thesis}, i.e. he applied to the cooked data the same set of selection cuts and corrections.
 
@@ -196,7 +196,7 @@ where the (complex) coefficients $c_{n,m}$ need to be determined from the data.
 In the past, different authors employed the Veneziano model, for example for the analysis of the at-rest process $N\overline{N}\rightarrow 3\pi$ \cite{Lovelace,Altarelli,Gopal}.
 However, these analysis were performed by truncating the sum of Eq.~\ref{eq:ampsum}, therefore selecting \textit{a-priori} the number of terms to include in the amplitude.
 
-The approach of Pennington and Sczepaniak is, instead, more systematic. 
+The approach of Pennington and Szczepaniak is, instead, more systematic. 
 The amplitude is constructed starting from the non-truncated sum of Eq.~\ref{eq:ampsum}: instead of directly fitting the coefficients $c_{n,m}$ to the data, these are
 selected a-priori, in order to get an amplitude with a defined and known number of resonances. 
 
@@ -229,17 +229,20 @@ A_{n}(s,t;N)=\frac{(2n-\alpha_s-\alpha_t)}{(n-\alpha_s)(n-\alpha_t)}\sum_{i=1}^n
 \frac{\Gamma(N+1-\alpha_s)\Gamma(N+1-\alpha_t)}{\Gamma(N+1-n)\Gamma(N+n+1-\alpha_s-\alpha_t)}
 \end{equation}
 The full reaction amplitude is here reported for completeness:
-\begin{equation}\label{eq:fullampl}
-A_\lambda(s,t,u) = \varepsilon_{\mu \nu \alpha \beta}\, p^{\nu}_{+}p^{\alpha}_{-}p^{\beta}_{0}\varepsilon^{\mu}_{\lambda} \, F(s,t,u) 
-=
+\begin{eqnarray}\label{eq:fullampl}
+A_\lambda(s,t,u) & = & \varepsilon_{\mu \nu \alpha \beta}\, p^{\nu}_{+}p^{\alpha}_{-}p^{\beta}_{0}\varepsilon^{\mu}_{\lambda} \, F(s,t,u) 
+\\
+F(s,t,u) & = & \sum_{n=1}(A_{n}(s,t;N)+A_{n}(t,u;N)+A_{n}(s,u;N))
+\\
+A_\lambda(s,t,u) & = &
 \varepsilon_{\mu \nu \alpha \beta}\, p^{\nu}_{+}p^{\alpha}_{-}p^{\beta}_{0}\varepsilon^{\mu}_{\lambda}
 \cdot
 \sum_{n=1}(A_{n}(s,t;N)+A_{n}(t,u;N)+A_{n}(s,u;N))
-\end{equation}
+\end{eqnarray}
 
 \subsection{The \decay decay}
-
-The application of the Pennington-Sczepaniak extended Veneziano model to the \decay decay is here discussed.
+S
+The application of the Pennington-Szczepaniak extended Veneziano model to the \decay decay is here discussed.
 \begin{itemize}
 \item The physical content of the decay amplitude scalar part follows from the nature of each $A_n$ factor. Specifically, $A_n(s,t)$ 
 contains poles at $\alpha_s=n$, with the residue
@@ -337,6 +340,8 @@ Knowing the value of the free parameters in the intensity, the acceptance-correc
 \mu^0(\vec{x}) = \frac{\boldsymbol{\tau}}{N_{gen}}\sum_i^{N_{gen}} I(\tau_i,\vec{x}) \; \; \; 
 \end{equation}
 
+Furthermore,
+
 \subsection{Example: constant intensity}
 
 It is instructive to consider the case of a maximum likelihood fit performed with a constant intensity, $I=I_0$, where only the normalization factor $I_0$ (and thus the acceptance-corrected event yield) has to be determined.
@@ -371,7 +376,7 @@ The user has to write his own amplitudes, overriding this method.
 The user also needs to specify how amplitudes have to be summed, i.e. coherently or not, and the which are the free parameters to extract from the data.
 
 
-\section{Application to the \decay process}
+\section{Application to the \decay process}\label{sec:application}
 
 For the decay process \decay, the intensity expression that I fit to the data is that of Eq.~\ref{eq:intensity}. Here, I want to discuss the following points:
 \begin{itemize}
@@ -399,7 +404,7 @@ To do so, I used the data reported in \cite{Williams:2009ab}, by performing a li
 
 Before proceeding further in the analysis, I performed a check to verify the agreement with the previous results from M.~Williams analysis. 
 As said before, the original dataset for that analysis was lost. Therefore, I could olny compare the published results, namely the differential cross section $\frac{d\sigma}{d\cos_{CM}}$ and the spin-density matrix elements.
-The main goal of this check is to verify that the re-analysis procedure operated by B. Vernansky on the g11a dataset, following strictly the procedure adopted by M. Williams, gives compatible results for the above observables.
+The main goal of this check is to verify that the re-analysis procedure operated by B. Vernansky on the \texttt{g11a} dataset, following strictly the procedure adopted by M. Williams, gives compatible results for the above observables.
 
 Preliminarly, I compared the number of signal events (i.e. the non-acceptance corrected event yield) as a function of $W$ with the result reported, in form of a plot, in M.~Williams thesis (Fig.~3.19). Being this quantity independent from the MC procedure,
 this comparison permits to identify any difference associated directly to the signal extraction from the measured data.
@@ -409,7 +414,7 @@ this comparison permits to identify any difference associated directly to the si
 I binned data in $W$ and $\cos \theta_{CM}$ bins. For $W$, I selected 45 bins from 2.0 to 2.45 GeV, each bin with a 10 MeV width, while for  $\cos \theta_{CM}$ I employed 16 bins, from -0.8 to +0.8, each bin with .1 width. This division is the 
 same as the one used in the original Williams paper. 
 
-In each bin, I performed an extended maximum likelihood fit, with the \textit{full} reaction intensity (Eq.~\ref{eq:fullintensity}). 
+In each bin, I performed an extended maximum likelihood fit, with the \textit{full} reaction intensity (Eq.~\ref{eq:fullintensity}). I set $F(s,t,u)=1$, as was done in the original Williams paper. The effect of this choice will be discussed in the following.
 The corresponding free parameters are: the 3 spin density matrix elements and the overall normalization, evaluated at the kinematic point corresponding to the bin itself.
 
 The spin-density matrix elements are obtained directly from the fit. 
@@ -419,10 +424,10 @@ The differential-cross section, instead, has to be computed from the acceptance-
 \end{equation}
 where:
 \begin{itemize}
-\item{$\mathcal{L}_{target}$ is the number of scatter centers per unit of area in the target. This is computed as $N_{Avo} \cdot \rho_{target} \cdot L_{target} / A_{target}$. For the $g11a$ run, $\mathcal{L}_{target}=(1.715\pm 0.003)\cdot 10^{24}$ cm$^{-2}$. 
+\item{$\mathcal{L}_{target}$ is the number of scatter centers per unit of area in the target. This is computed as $N_{Avo} \cdot \rho_{target} \cdot L_{target} / A_{target}$. For the \texttt{g11a} run, $\mathcal{L}_{target}=(1.715\pm 0.003)\cdot 10^{24}$ cm$^{-2}$. 
 All the details about the calculation of this quantity, as well as its indetermination, are reported in Williams thesis, Sec. 7.2.1.}
 \item{$\mathcal{F}^\prime(W)$ is the \textit{corrected} number of incident photons in the $W$ bin.
-This is obtained from the un-corrected flux obtained from the \textit{gflux} method \cite{gflux}, applying the corrections specific to the $g11a$ run, namely the ``Live-time correction'' and the ``Un-Triggered T-Counter Correction''. 
+This is obtained from the un-corrected flux obtained from the \textit{gflux} method \cite{gflux}, applying the corrections specific to the \texttt{g11a} run, namely the ``Live-time correction'' and the ``Un-Triggered T-Counter Correction''. 
 These are described in Williams thesis, Sec.~4.5.2 and 4.5.3. The second correction has to be applied only to the flux data for $W<1.95$ GeV and, therefore, is not relevant for this analysis.
 
 The systematic uncertainty associated to the corrected photon flux has two contributions: the photon transmission efficiency ($0.5\%$) and the live-time correction ($3\%$) (see \cite{Williams:2009ab}, Sec~VII).
@@ -431,7 +436,7 @@ Adding these in quadrature, the overall systematic uncertainty is $\simeq 3.04\%
 
 The corrected flux is reported in Fig.~\ref{fig:flux}}.
 \item{$\Delta \cos \theta = 0.1$ is the width of each $\cos \theta$ bin.}
-\item{$BF \simeq 0.891$ is the $\omega \rightarrow \pi^+ \pi^- \pi^0$ branching fraction.} 
+\item{$BF \simeq 0.891$ is the $\omega \rightarrow \pi^+ \pi^- \pi^0$ decay branching fraction.} 
 \end{itemize}
 \begin{figure}[tpb]
 \centering
@@ -457,26 +462,55 @@ Right: ratio of the two event yield, as a function of $W$. See text for the desc
 \end{figure}
 
 \subsection{Cross section and spin-density matrix elements}
-The result of the cross-section and spin-density matrix comparison is reported, for all $W$ bins, in appendix~\ref{Appendix:xsec}. In each page, the top-left plot reports the cross-section, while the central-row plots report the spin-density matrix elements, as a function of $\cos{\theta}_{CM}$.
+The result of the cross-section and spin-density matrix comparison is reported, for all $W$ bins, in Appendix~\ref{Appendix:xsec}. In each page, the top-left plot reports the cross-section, while the central-row plots report the spin-density matrix elements, as a function of $\cos{\theta}_{CM}$.
 
-The ratio between the two cross-sections is reported in the top-central plot. Results from M.~Williams analysis are reported in black, while results from this analysis are reported in red. The blue data points will be described in the next chapter. 
+The ratio between the two cross-sections is reported in the top-central plot. Results from M.~Williams analysis are reported in black, while results from this analysis are reported in red. The blue data points will be described later in the next section.
+
+%\subsection{$\lambda$ parameter distribution}
+
+\subsubsection{The effect of $F\neq 1$}
+
+As discussed before, I evaluated the differential reaction cross-section and the spin-density matrix elements by setting $F(s,t,u)=1$ in the full reaction intensity (Eq.~\ref{eq:fullintensity}), following strictly wat was done in the previous \texttt{g11} analysis.
+
+However, in this analysis I consider $F \neq 1$, by using the Pennington-Szczepaniak extended Veneziano model. Here, I want to discuss what is the effect of this choice in the cross-section and spin-density matrix elements measurement. 
+
+By following the argument introduced in the previous Chapter, one can conclude that, even if these two observables are only related to the \production production reaction, the CLAS acceptance does also depend on the \decay decay kinematics. The effect of $F(s,t,u)$ would therefore manifest only in the acceptance evaluation.
+
+In order to quantify this, I repeated the extraction of the differential reaction cross-section and the spin-density matrix elements by selecting:
+\begin{equation}
+F(s,t,u)=A_1(s,t,N)+A_1(s,u,N)+A_1(t,u,N) \; \; \; ,
+\end{equation}
+i.e. by including only the first term in the series of Eq.~\ref{eq:fullampl}, corresponding to the $\rho(770)$ pole. Results are reported as the blue points in the plots of Appendix~\ref{Appendix:xsec}.
 
 \section{Conclusions}
 
-The agreement between the spin-density matrix elements determined in this analysis and those reported by M. Williams is very good, for all $W$ bins. 
+The agreement between the spin-density matrix elements determined in this analysis and those reported by M. Williams is very good, for all $W$ and $\cos{\theta}_{CM}$ bins.  
 
-The ratio between the differential reaction cross-section reported determined in this analysis and that from M. Williams, instead, shows a systematic positive offset from the expected unitary value, for all $W$ bins.
+The ratio between the differential reaction cross-section reported determined in this analysis and that from M. Williams, instead, shows a systematic positive offset from the expected unitary value, for all $W$ bins, i.e. the differential cross-section here determined is \textbf{larger} than the one reported in Williams paper.
 Since the not-acceptance corrected yield ratio is $\simeq 0.92$, this suggests the presence of some systematic effect in the acceptance calculation (i.e. on the MC events projection on CLAS and reconstruction), and/or in the photon flux determination. 
 
-Furthermore, for a given $W$ bin, the ratio fluctuates as a function of $\cos(\theta)$: 
+Furthermore, for a given $W$ bin, the cross-sections ratio is not constant, but fluctuates as a function of $\cos(\theta)_{CM}$. This fluctuation is of the order of $\simeq 10\%$ for all $W$ bins.
 
-\chapter{Effect of $F \neq 1$}
+As explained before (Sec. \ref{sec:application}), the differential production cross-section and the spin-density matrix elements for the reaction \production are only used to assign a weight to the MonteCarlo events (generated and accepted).
+The weights are employed in the Maximum Likelihood Fit procedure to account in an ``effective way'' for the dependence of the CLAS acceptance on the production variables ($W$ and $\cos(\theta)_{CM}$) and on the \decay decay plane orientation. 
 
-\subsection{Procedure}
+Therefore, for a given $W$ bin, a constant shift in the differential cross-section is not an issue in this analysis, since the weights can be re-scaled arbitrarly without any effect in the Likelihood computation. However, the $\cos(\theta)_{CM}$-dependent fluctuation would introduce a systematic effect on the Likelihood normalization term. This effect is expected to be an higher-order one, since it affects only the CLAS acceptance dependence on the production variables.
 
-\subsection{Results}
+I evaluated explicitly how this effect influences the outcome of this analysis: procedure and results are discussed in the next Chapter.
 
-\subsection{Conclusions}
+Finally, there is no effect on the cross-section and on the spin-density matrix elements given by the choice $F=1$ (red and blue points are perfectly superimposed for all $W$ and $\cos(\theta)_{CM}$ bins.
+
+\chapter{The scenario $F(s,t,u) \neq 1$: systematic effects evaluation}
+
+In this Chapter, I consider the case with the \decay reaction intensity parametrized with $F(s,t,u) \neq 1$, i.e. excplicitly introducing the Pennington-Szczepaniak extended Veneziano model.
+
+I want to discuss the following aspects:
+
+\section{Procedure}
+
+\section{Results}
+
+\section{Conclusions}
 
 
 
