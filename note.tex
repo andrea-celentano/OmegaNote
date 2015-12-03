@@ -228,20 +228,24 @@ A_{n}(s,t;N)=\frac{(2n-\alpha_s-\alpha_t)}{(n-\alpha_s)(n-\alpha_t)}\sum_{i=1}^n
 \cdot
 \frac{\Gamma(N+1-\alpha_s)\Gamma(N+1-\alpha_t)}{\Gamma(N+1-n)\Gamma(N+n+1-\alpha_s-\alpha_t)}
 \end{equation}
-The full reaction amplitude is here reported for completeness:
+
+\subsection{Reaction Amplitude and Intensity}\label{sec:intensity}
+
+The full reaction amplitude and intensity are here reported for completeness:
 \begin{eqnarray}\label{eq:fullampl}
-A_\lambda(s,t,u) & = & \varepsilon_{\mu \nu \alpha \beta}\, p^{\nu}_{+}p^{\alpha}_{-}p^{\beta}_{0}\varepsilon^{\mu}_{\lambda} \, F(s,t,u) 
+F(s,t,u) & = & \sum_{n=1}^{n_{max}}(A_{n}(s,t;N)+A_{n}(t,u;N)+A_{n}(s,u;N))
 \\
-F(s,t,u) & = & \sum_{n=1}(A_{n}(s,t;N)+A_{n}(t,u;N)+A_{n}(s,u;N))
+A_\lambda(s,t,u) & = & \varepsilon_{\mu \nu \alpha \beta}\, p^{\nu}_{+}p^{\alpha}_{-}p^{\beta}_{0}\varepsilon^{\mu}_{\lambda} \, F(s,t,u) 
 \\
 A_\lambda(s,t,u) & = &
 \varepsilon_{\mu \nu \alpha \beta}\, p^{\nu}_{+}p^{\alpha}_{-}p^{\beta}_{0}\varepsilon^{\mu}_{\lambda}
 \cdot
-\sum_{n=1}(A_{n}(s,t;N)+A_{n}(t,u;N)+A_{n}(s,u;N))
+\sum_{n=1}(A_{n}(s,t;N)+A_{n}(t,u;N)+A_{n}(s,u;N)) \\
+I &\propto& \sum_{\lambda,\lambda^\prime} A_\lambda \rho_{\lambda,\lambda^\prime} A^*_{\lambda^\prime}
 \end{eqnarray}
 
 \subsection{The \decay decay}
-S
+
 The application of the Pennington-Szczepaniak extended Veneziano model to the \decay decay is here discussed.
 \begin{itemize}
 \item The physical content of the decay amplitude scalar part follows from the nature of each $A_n$ factor. Specifically, $A_n(s,t)$ 
@@ -266,7 +270,7 @@ For example, for $n=2$, $Res \, A_{2}=c_{2,1}-c_{2,2}(2+\alpha_t)$. The decoupli
 describes \textbf{only} the coupling of the $\omega$ to the $\rho^\prime \pi$ system, being $\rho^\prime$ the spin-1 $\pi \pi$ resonance at $\alpha_s=2$, i.e. the $\rho_{1450}$.
 
 \item The nominal Regge trajectory parametrization, $\alpha_s=\alpha_0+s\cdot\alpha^{\prime}$ is purely real. Therefore, from Eq.~\ref{eq:poleloc} it follows that the poles contained in the extended Veneziano Model correspond to zero-width resonances. In order to re-introduce the finite $\rho$ resonances width, the trajectory is modified as follows:
-\begin{equation}
+\begin{equation}\label{eq:reggenominal}
 \alpha_s=\alpha_0 + s \cdot \alpha^\prime + i g \sqrt{s-4m^2_\pi}
 \end{equation}
 The parameter $g$ determines the resonances width. The nominal value is $g=0.12$, corresponding, for the $\rho(770)$ state, to $\Gamma=0.124$ GeV.
@@ -493,11 +497,15 @@ I evaluated explicitly how this effect influences the outcome of this analysis: 
 
 In this Chapter, I consider the case with the \decay reaction intensity parametrized with $F(s,t,u) \neq 1$, i.e. excplicitly introducing the Pennington-Szczepaniak extended Veneziano model
 
-\section{The effect of $F\neq$1}
+\section{$F\neq$1}
 
-I evaluated the differential reaction cross-section and the spin-density matrix elements by setting $F(s,t,u)=1$ in the full reaction intensity (Eq.~\ref{eq:fullintensity}), following what was done in the previous \texttt{g11} analysis. However, in this analysis I consider $F \neq 1$, by using the Pennington-Szczepaniak extended Veneziano model.
+In the previous Chapter, I evaluated the differential reaction cross-section and the spin-density matrix elements by setting $F(s,t,u)=1$ in the full reaction intensity (Eq.~\ref{eq:fullintensity}), following what was done in the previous \texttt{g11} analysis. 
+However, in this analysis I consider $F \neq 1$, by using the Pennington-Szczepaniak extended Veneziano model.
 
-By following the argument introduced in the previous Chapters, one can conclude that, even if these two observables are only related to the \production production reaction, the CLAS acceptance does also depend on the \decay decay kinematics. The effect of $F(s,t,u)$ would therefore manifest in the acceptance evaluation. I will demonstrate that this does not introduce any significal effect in the measurement of the cross-section and spin-density matrix elements.
+By following the argument introduced in the previous Chapters, one can conclude that, even if these two observables are only related to the \production production reaction, the CLAS acceptance does also depend on the \decay decay kinematics. 
+The effect of $F(s,t,u)$ could therefore manifest in the acceptance evaluation and, thus, in the extraction of the cross-section and of the spin-density matrix elements.
+
+Here, I show that actually this does not introduce any significal effect in the measurement of these observables.
 
 \subsection{Procedure}
 
@@ -506,38 +514,51 @@ However, in the intensity parametrizetion I introduced:
 \begin{equation}
 F(s,t,u)=A_1(s,t,N)+A_1(s,u,N)+A_1(t,u,N) \; \; \; ,
 \end{equation}
-i.e. by including only the first term in the series of Eq.~\ref{eq:fullampl}, corresponding to the $\rho(770)$ pole.
+i.e. I included the first term in the series of Eq.~\ref{eq:fullampl}, corresponding to the presence of the $\rho(770)$ pole. As discussed in the next Chapter, this term is the dominat one in the series that defines $F$ (Eq.\ref{eq:fullampl}).
+I used the nominal expression of the $\pi \pi$ Regge Trajectory (Eq.~\ref{eq:reggenominal}).
+
+\subsection{Results}
+
+The differential cross-section and the spin-density matrix elements extracted from the fits with the $F$ expression given above are reported, for all the $W$ and $\cos(\theta)$ bins in the plots of Appendix~\ref{Appendix:xsec} (blue points).
+
+\subsection{Discussion}
+
+Results obtained in the two cases, $F=1$ and $F\neq 1$ are absolutely compatible. This demonstrates that the effect of $F$ in the extraction of the differential reaction cross-section and the spin-density matrix elements is negligible, as expected.
+
+
+
+\section{Systematic uncertainty in the differential cross-section and spin-density matrix elements}
+
+The differential production cross-section and the spin-density matrix elements for the reaction \production are employed to assign a weight to the MonteCarlo events (generated and accepted): these are employed in the Maximum Likelihood Fit procedure to account
+for the dependence of the CLAS acceptance on the production variables ($W$ and $\cos(\theta_{CM})$) and on the \decay decay plane orientation. 
+
+These observables were discussed in the previous Chapter, and compared with those from \cite{Williams:2009ab}. While a good agreement was found for the spin-density matrix elements, the differential reaction cross-section showed discrepancies, thus showing the presence of
+unknown systematic effects.
+
+For a given $W$ bin, a constant shift in the differential cross-section is not an issue in this analysis, since weights can be re-scaled arbitrarly without any effect in the Likelihood
+computation. Therefore, any systematic effect in the overall events normalization can be neglected. 
+However, a $\cos(\theta_{CM})$-dependent fluctuation would introduce a systematic effect on the Likelihood normalization term. 
+
+In this Section, I discuss how this effect would affect the Maximum-Likelihood fit results.
+
+\subsection{Procedure}
+
+I used the simplest parametrization of the decay intensity presented before, that includes the $\rho(770)$ pole only:
+\begin{equation}
+F(s,t,u)=A_1(s,t,N)+A_1(s,u,N)+A_1(t,u,N) \; \; \; ,
+\end{equation}
+
+For each $W$ bins, I perfored two Maximum-Likelihood fits. In the first, I calculated MonteCarlo weights starting with the cross-section and spin-density matrix elements obtained from \cite{Williams:2009ab}.
+In the second, instead, the weights were re-computed with the above observables smeared by $10\%$. Smearing was applied independently in each $W$ and $\cos(\theta_{CM})$ bin.
 
 \subsection{Results}
 
 \subsection{Discussion}
-
-\paragraph{The effect of the systematic uncertainty in the differential cross-section and spin-density matrix elements:}
-
-
-\section{The effect of $F\neq 1$}
-
-As discussed before, I evaluated the differential reaction cross-section and the spin-density matrix elements by setting $F(s,t,u)=1$ in the full reaction intensity (Eq.~\ref{eq:fullintensity}), following what was done in the previous \texttt{g11} analysis.
-
-However, in this analysis I consider $F \neq 1$, by using the Pennington-Szczepaniak extended Veneziano model. Here, I want to discuss what is the effect of this choice in the cross-section and spin-density matrix elements measurement. 
-
-By following the argument introduced in the previous Chapter, one can conclude that, even if these two observables are only related to the \production production reaction, the CLAS acceptance does also depend on the \decay decay kinematics. The effect of $F(s,t,u)$ would therefore manifest only in the acceptance evaluation.
-
-In order to quantify this, I repeated the extraction of the differential reaction cross-section and the spin-density matrix elements by selecting:
-\begin{equation}
-F(s,t,u)=A_1(s,t,N)+A_1(s,u,N)+A_1(t,u,N) \; \; \; ,
-\end{equation}
-i.e. by including only the first term in the series of Eq.~\ref{eq:fullampl}, corresponding to the $\rho(770)$ pole. Results are reported as the blue points in the plots of Appendix~\ref{Appendix:xsec}.
-\section{Procedure}
-
-\subsection{}
-
-\section{Results}
-
 \section{Conclusions}
 
 
 
+In this analysis, therefore, all maximum-likelihood fits have been performed by computing the $w$ weight for the MonteCarlo events (see Sec.~\ref{sec:application}) using results from \cite{Williams:2009ab}.
 
 
 
@@ -622,7 +643,7 @@ with the Hall B Photon Tagger.'' CLAS Note 2005-002.
 \chapter{Data agreement with previous results: plots}\label{Appendix:xsec}
 %\includepdf[pages={1-},scale=0.75]{out.pdf}
 
-\forloop[1]{counter}{1}{\value{counter} < 45}{%
+\forloop[1]{counter}{0}{\value{counter} < 45}{%
 %
 %\ifnum\value{counter} = 5
 %Bin 5 : $W=$ 1.95-1.96 GeV is excluded from the analysis
@@ -637,6 +658,24 @@ Bin
 \newpage
 }%
 
+
+\chapter{Cross-section systematic effects}\label{Appendix:C}
+%\includepdf[pages={1-},scale=0.75]{out.pdf}
+
+\forloop[1]{counter}{0}{\value{counter} < 45}{%
+%
+%\ifnum\value{counter} = 5
+%Bin 5 : $W=$ 1.95-1.96 GeV is excluded from the analysis
+%
+%\else
+\includegraphics[width=\textwidth]{comparisonRandom/comparison\arabic{counter}.eps}
+\centering
+Bin
+\bind{S}{\value{counter}}
+: $W= $
+\use[2]{ S * 0.01+2.0} - \use[2]{ S * 0.01+2.01} GeV
+%\newpage
+}%
 
 
 
