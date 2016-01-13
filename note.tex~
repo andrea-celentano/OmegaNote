@@ -14,6 +14,8 @@
 \usepackage{xintexpr}
 \usepackage{calc} 
 \usepackage{forloop}
+\usepackage{amsthm}
+
 
 % This computes first argument as result of evaluation of second
 % argument.
@@ -31,10 +33,24 @@
 \newcommand{\production}{$\gamma p \rightarrow p \omega$ }
 \newcommand{\fullreaction}{$\gamma p \rightarrow p \omega \rightarrow p \pi^+ \pi^- \pi^{0}$ }
 
+
+\makeatletter
+\newtheorem*{rep@theorem}{\rep@title}
+\newcommand{\newreptheorem}[2]{%
+\newenvironment{rep#1}[1]{%
+ \def\rep@title{#2 \ref{##1}}%
+ \begin{rep@theorem}}%
+ {\end{rep@theorem}}}
+\makeatother
+
+
+
 \newtheorem{theorem}{Theorem}
+\newreptheorem{theorem}{Theorem}
 \newcommand{\printteolike}{
-Assume that, in an extended maximum likelihood fit, the intensity $I$ can be written as $I=I_1(\tau_1) \cdot I_2(\tau_2,\vec{x})$,
-where the first factor does not include free parameters. Then, the likelihood obtained from the full intensity $I$ is equivalent to the
+Assume a reaction $R$, with the final state phase-space $\mathbf{\tau}$ being factorized as $\mathbf{\tau}~=~\mathbf{\tau_1}~\cdot~\mathbf{\tau_2}$.
+Assume also that the intensity $I$ for the reaction can written as $I=I_1(\tau_1) \cdot I_2(\tau_2,\vec{x})$,
+where the first factor does not include free parameters, while the second does. Then, the likelihood function obtained from the full intensity $I$ is equivalent to the
 likelihood obtained by considering the $I_2$ factor only, provided that a weight $k_i$ is assigned to each of the MonteCarlo events -generated and reconstructed -, with $k_i=I_1(\tau^i_1)$, and that the average number of measured events is computed as:
 \begin{equation}
 \mu(\vec{x})=\frac{\sum_{i=1}^{N_{acc}}k_iI_2(\tau_2,\vec{x})}{N_{gen}}
@@ -396,6 +412,7 @@ I = I_P \cdot I_D = \frac{d\sigma}{d\cos_{CM}}\cdot q^2M^2_\omega \cdot |F(s,t,u
 \end{equation}
 The answer to the first question, instead, comes from the following theorem (see Appendix~\ref{app:theo} for the demonstration):
 \begin{theorem}
+\label{theorem}
 \printteolike
 \end{theorem}
 
@@ -548,8 +565,8 @@ I used the simplest parametrization of the decay intensity presented before, tha
 F(s,t,u)=A_1(s,t,N)+A_1(s,u,N)+A_1(t,u,N) \; \; \; ,
 \end{equation}
 
-For each $W$ bins, I perfored two Maximum-Likelihood fits. In the first, I calculated MonteCarlo weights starting with the cross-section and spin-density matrix elements obtained from \cite{Williams:2009ab}.
-In the second, instead, the weights were re-computed with the above observables smeared by $10\%$.
+For each $W$ bins, I performed two Maximum-Likelihood fits. In the first, I calculated MonteCarlo weights starting with the cross-section and spin-density matrix elements obtained from \cite{Williams:2009ab}.
+In the second, instead, the weights were re-computed with the above observables smeared by $10\%$. Smearing was applied independently in each $W$ and $\cos(\theta_{CM})$ bin.
 
 \subsection{Results}
 
@@ -630,10 +647,12 @@ with the Hall B Photon Tagger.'' CLAS Note 2005-002.
 
 \appendix 
 \chapter{Theorem}\label{app:theo}
-\begin{theorem}
-\printteolike
-\end{theorem}
 
+\begin{reptheorem}{theorem}
+\printteolike
+\end{reptheorem}
+
+\paragraph{Proof}
 
 
 

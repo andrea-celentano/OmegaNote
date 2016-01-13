@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  3 DEC 2015 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  3 DEC 2015 12:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -858,25 +858,38 @@ Package: xintexpr 2014/11/07 v1.1a Expandable expression parser (jfB)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/forloop/forloop.sty
 Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip56
+\thm@postskip=\skip57
+\thm@headsep=\skip58
+\dth@everypar=\toks42
+)
 \c@counter=\count143
 \c@theorem=\count144
  (./note.aux)
 \openout1 = `note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count145
@@ -884,12 +897,12 @@ LaTeX Font Info:    ... okay on input line 47.
 \scratchbox=\box41
 \nofMPsegments=\count146
 \nofMParguments=\count147
-\everyMPshowfont=\toks37
+\everyMPshowfont=\toks43
 \MPscratchCnt=\count148
 \MPscratchDim=\dimen179
 \MPnumerator=\count149
 \makeMPintoPDFobject=\count150
-\everyMPtoPDFconversion=\toks38
+\everyMPtoPDFconversion=\toks44
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -941,7 +954,7 @@ e
 
 \AtBeginShipoutBox=\box42
 ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 63.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -951,15 +964,15 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count151
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
 
 (./note.out) (./note.out)
 \@outlinefile=\write4
 \openout4 = `note.out'.
 
-LaTeX Font Info:    Try loading font information for U+esvect on input line 49.
+LaTeX Font Info:    Try loading font information for U+esvect on input line 65.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/esvect/uesvect.fd
@@ -971,7 +984,7 @@ arning (ext4): destination with the same identifier (name{page.1}) has been alr
 eady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 \end{abstract}
+l.71 \end{abstract}
                     [1] (./note.toc)
 \tf@toc=\write5
 \openout5 = `note.toc'.
@@ -980,188 +993,197 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 \chapter
+l.73 \chapter
              {Introduction} [1
 
 ]
 Chapter 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 79.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 79.
+(hyperref)                removing `\omega' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 79.
+(hyperref)                removing `\rightarrow' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 79.
+(hyperref)                removing `\pi' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 79.
+(hyperref)                removing `superscript' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 79.
+(hyperref)                removing `\pi' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 79.
+(hyperref)                removing `superscript' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 79.
+(hyperref)                removing `\pi' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 79.
+(hyperref)                removing `superscript' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 79.
+(hyperref)                removing `math shift' on input line 95.
 
 [2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 98.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 114.
+
  (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 98.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
  [3] [4]
 [5]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 247.
+(hyperref)                removing `math shift' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 247.
+(hyperref)                removing `\omega' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 247.
+(hyperref)                removing `\rightarrow' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 247.
+(hyperref)                removing `\pi' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 247.
+(hyperref)                removing `superscript' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 247.
+(hyperref)                removing `\pi' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 247.
+(hyperref)                removing `superscript' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 247.
+(hyperref)                removing `\pi' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 247.
+(hyperref)                removing `superscript' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 247.
+(hyperref)                removing `math shift' on input line 263.
 
 [6] [7]
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 288.
+(hyperref)                removing `math shift' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 288.
+(hyperref)                removing `\omega' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 288.
+(hyperref)                removing `\rightarrow' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 288.
+(hyperref)                removing `\pi' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 288.
+(hyperref)                removing `superscript' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 288.
+(hyperref)                removing `\pi' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 288.
+(hyperref)                removing `superscript' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 288.
+(hyperref)                removing `\pi' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 288.
+(hyperref)                removing `superscript' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 288.
+(hyperref)                removing `math shift' on input line 304.
 
 [8
 
 ] [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 383.
+(hyperref)                removing `math shift' on input line 399.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 383.
+(hyperref)                removing `\omega' on input line 399.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 383.
+(hyperref)                removing `\rightarrow' on input line 399.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 383.
+(hyperref)                removing `\pi' on input line 399.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 383.
+(hyperref)                removing `superscript' on input line 399.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 383.
+(hyperref)                removing `\pi' on input line 399.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 383.
+(hyperref)                removing `superscript' on input line 399.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 383.
+(hyperref)                removing `\pi' on input line 399.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 383.
+(hyperref)                removing `superscript' on input line 399.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 383.
+(hyperref)                removing `math shift' on input line 399.
 
-[10] [11]
+[10]
+Overfull \hbox (12.69623pt too wide) in paragraph at lines 416--416
+[]\OT1/cmr/bx/n/10 Theorem 1. []\OT1/cmr/m/it/10 As-sume a re-ac-tion $\OML/cmm
+/m/it/10 R$\OT1/cmr/m/it/10 , with the fi-nal state phase-space $\OML/cmm/m/it/
+10 ^^\$ \OT1/cmr/m/it/10 be-ing fac-tor-ized as $\OML/cmm/m/it/10 ^^\  \OT1/cmr
+/m/n/10 =  []  \OMS/cmsy/m/n/10 ^^A  []$\OT1/cmr/m/it/10 .
+ []
+
+[11]
 Chapter 3.
 [12
 
@@ -1174,13 +1196,13 @@ Package epstopdf Info: Source file: <xsec/flux.eps>
 (epstopdf)                    size: 10369 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/flux-eps-converted-to
 .pdf xsec/flux.eps>
-(epstopdf)             \includegraphics on input line 447.
+(epstopdf)             \includegraphics on input line 464.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/flux-eps-converted-to.pdf, id=322, 569.12625pt x 385.44pt>
+ <xsec/flux-eps-converted-to.pdf, id=323, 569.12625pt x 385.44pt>
 File: xsec/flux-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/flux-eps-converted-to.pdf>
-Package pdftex.def Info: xsec/flux-eps-converted-to.pdf used on input line 447.
+Package pdftex.def Info: xsec/flux-eps-converted-to.pdf used on input line 464.
 
 (pdftex.def)             Requested size: 292.77629pt x 198.28914pt.
 Package epstopdf Info: Source file: <xsec/events.eps>
@@ -1191,15 +1213,15 @@ Package epstopdf Info: Source file: <xsec/events.eps>
 (epstopdf)                    size: 14811 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/events-eps-converted-
 to.pdf xsec/events.eps>
-(epstopdf)             \includegraphics on input line 462.
+(epstopdf)             \includegraphics on input line 479.
 Package epstopdf Info: Output file is already uptodate.
 
-<xsec/events-eps-converted-to.pdf, id=324, 569.12625pt x 385.44pt>
+<xsec/events-eps-converted-to.pdf, id=325, 569.12625pt x 385.44pt>
 File: xsec/events-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/events-eps-converted-to.pdf>
-Package pdftex.def Info: xsec/events-eps-converted-to.pdf used on input line 46
-2.
+Package pdftex.def Info: xsec/events-eps-converted-to.pdf used on input line 47
+9.
 (pdftex.def)             Requested size: 196.57973pt x 133.13573pt.
 Package epstopdf Info: Source file: <xsec/eventsRatio.eps>
 (epstopdf)                    date: 2015-11-11 19:30:47
@@ -1209,42 +1231,42 @@ Package epstopdf Info: Source file: <xsec/eventsRatio.eps>
 (epstopdf)                    size: 10082 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/eventsRatio-eps-conve
 rted-to.pdf xsec/eventsRatio.eps>
-(epstopdf)             \includegraphics on input line 463.
+(epstopdf)             \includegraphics on input line 480.
 Package epstopdf Info: Output file is already uptodate.
 
-<xsec/eventsRatio-eps-converted-to.pdf, id=325, 569.12625pt x 385.44pt>
+<xsec/eventsRatio-eps-converted-to.pdf, id=326, 569.12625pt x 385.44pt>
 File: xsec/eventsRatio-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/eventsRatio-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/eventsRatio-eps-converted-to.pdf used on input li
-ne 463.
+ne 480.
 (pdftex.def)             Requested size: 196.57973pt x 133.13573pt.
  [13 <./xsec/flux-eps-converted-to.pdf>] [14 <./xsec/events-eps-converted-to.pd
 f> <./xsec/eventsRatio-eps-converted-to.pdf>] [15]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 496.
+(hyperref)                removing `math shift' on input line 513.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\not' on input line 496.
+(hyperref)                removing `\not' on input line 513.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 496.
+(hyperref)                removing `math shift' on input line 513.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 500.
+(hyperref)                removing `math shift' on input line 517.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\not' on input line 500.
+(hyperref)                removing `\not' on input line 517.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 500.
+(hyperref)                removing `math shift' on input line 517.
 
 [16
 
@@ -1252,6 +1274,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 ]
 Appendix A.
+
+Overfull \hbox (12.69623pt too wide) in paragraph at lines 652--652
+[]\OT1/cmr/bx/n/10 Theorem []1[]. []\OT1/cmr/m/it/10 As-sume a re-ac-tion $\OML
+/cmm/m/it/10 R$\OT1/cmr/m/it/10 , with the fi-nal state phase-space $\OML/cmm/m
+/it/10 ^^\$ \OT1/cmr/m/it/10 be-ing fac-tor-ized as $\OML/cmm/m/it/10 ^^\  \OT1
+/cmr/m/n/10 =  []  \OMS/cmsy/m/n/10 ^^A  []$\OT1/cmr/m/it/10 .
+ []
+
 [19
 
 ]
@@ -1264,14 +1294,14 @@ Package epstopdf Info: Source file: <xsec/xsec_0.eps>
 (epstopdf)                    size: 27584 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_0-eps-converted-
 to.pdf xsec/xsec_0.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
-<xsec/xsec_0-eps-converted-to.pdf, id=402, 569.12625pt x 385.44pt>
+<xsec/xsec_0-eps-converted-to.pdf, id=404, 569.12625pt x 385.44pt>
 File: xsec/xsec_0-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_0-eps-converted-to.pdf>
-Package pdftex.def Info: xsec/xsec_0-eps-converted-to.pdf used on input line 65
-9.
+Package pdftex.def Info: xsec/xsec_0-eps-converted-to.pdf used on input line 67
+8.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [20
 
@@ -1284,14 +1314,14 @@ Package epstopdf Info: Source file: <xsec/xsec_1.eps>
 (epstopdf)                    size: 27489 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_1-eps-converted-
 to.pdf xsec/xsec_1.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_1-eps-converted-to.pdf, id=412, 569.12625pt x 385.44pt>
+ <xsec/xsec_1-eps-converted-to.pdf, id=414, 569.12625pt x 385.44pt>
 File: xsec/xsec_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_1-eps-converted-to.pdf>
-Package pdftex.def Info: xsec/xsec_1-eps-converted-to.pdf used on input line 65
-9.
+Package pdftex.def Info: xsec/xsec_1-eps-converted-to.pdf used on input line 67
+8.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [21 <./xsec/xsec_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_2.eps>
@@ -1302,14 +1332,14 @@ Package epstopdf Info: Source file: <xsec/xsec_2.eps>
 (epstopdf)                    size: 27335 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_2-eps-converted-
 to.pdf xsec/xsec_2.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_2-eps-converted-to.pdf, id=422, 569.12625pt x 385.44pt>
+ <xsec/xsec_2-eps-converted-to.pdf, id=424, 569.12625pt x 385.44pt>
 File: xsec/xsec_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_2-eps-converted-to.pdf>
-Package pdftex.def Info: xsec/xsec_2-eps-converted-to.pdf used on input line 65
-9.
+Package pdftex.def Info: xsec/xsec_2-eps-converted-to.pdf used on input line 67
+8.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [22 <./xsec/xsec_2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_3.eps>
@@ -1320,14 +1350,14 @@ Package epstopdf Info: Source file: <xsec/xsec_3.eps>
 (epstopdf)                    size: 27804 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_3-eps-converted-
 to.pdf xsec/xsec_3.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_3-eps-converted-to.pdf, id=432, 569.12625pt x 385.44pt>
+ <xsec/xsec_3-eps-converted-to.pdf, id=434, 569.12625pt x 385.44pt>
 File: xsec/xsec_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_3-eps-converted-to.pdf>
-Package pdftex.def Info: xsec/xsec_3-eps-converted-to.pdf used on input line 65
-9.
+Package pdftex.def Info: xsec/xsec_3-eps-converted-to.pdf used on input line 67
+8.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [23 <./xsec/xsec_3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_4.eps>
@@ -1338,14 +1368,14 @@ Package epstopdf Info: Source file: <xsec/xsec_4.eps>
 (epstopdf)                    size: 27261 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_4-eps-converted-
 to.pdf xsec/xsec_4.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_4-eps-converted-to.pdf, id=443, 569.12625pt x 385.44pt>
+ <xsec/xsec_4-eps-converted-to.pdf, id=445, 569.12625pt x 385.44pt>
 File: xsec/xsec_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_4-eps-converted-to.pdf>
-Package pdftex.def Info: xsec/xsec_4-eps-converted-to.pdf used on input line 65
-9.
+Package pdftex.def Info: xsec/xsec_4-eps-converted-to.pdf used on input line 67
+8.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [24 <./xsec/xsec_4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_5.eps>
@@ -1356,14 +1386,14 @@ Package epstopdf Info: Source file: <xsec/xsec_5.eps>
 (epstopdf)                    size: 28147 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_5-eps-converted-
 to.pdf xsec/xsec_5.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_5-eps-converted-to.pdf, id=453, 569.12625pt x 385.44pt>
+ <xsec/xsec_5-eps-converted-to.pdf, id=455, 569.12625pt x 385.44pt>
 File: xsec/xsec_5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_5-eps-converted-to.pdf>
-Package pdftex.def Info: xsec/xsec_5-eps-converted-to.pdf used on input line 65
-9.
+Package pdftex.def Info: xsec/xsec_5-eps-converted-to.pdf used on input line 67
+8.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [25 <./xsec/xsec_5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_6.eps>
@@ -1374,14 +1404,14 @@ Package epstopdf Info: Source file: <xsec/xsec_6.eps>
 (epstopdf)                    size: 27671 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_6-eps-converted-
 to.pdf xsec/xsec_6.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_6-eps-converted-to.pdf, id=463, 569.12625pt x 385.44pt>
+ <xsec/xsec_6-eps-converted-to.pdf, id=465, 569.12625pt x 385.44pt>
 File: xsec/xsec_6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_6-eps-converted-to.pdf>
-Package pdftex.def Info: xsec/xsec_6-eps-converted-to.pdf used on input line 65
-9.
+Package pdftex.def Info: xsec/xsec_6-eps-converted-to.pdf used on input line 67
+8.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [26 <./xsec/xsec_6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_7.eps>
@@ -1392,14 +1422,14 @@ Package epstopdf Info: Source file: <xsec/xsec_7.eps>
 (epstopdf)                    size: 27731 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_7-eps-converted-
 to.pdf xsec/xsec_7.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_7-eps-converted-to.pdf, id=473, 569.12625pt x 385.44pt>
+ <xsec/xsec_7-eps-converted-to.pdf, id=475, 569.12625pt x 385.44pt>
 File: xsec/xsec_7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_7-eps-converted-to.pdf>
-Package pdftex.def Info: xsec/xsec_7-eps-converted-to.pdf used on input line 65
-9.
+Package pdftex.def Info: xsec/xsec_7-eps-converted-to.pdf used on input line 67
+8.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [27 <./xsec/xsec_7-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_8.eps>
@@ -1410,14 +1440,14 @@ Package epstopdf Info: Source file: <xsec/xsec_8.eps>
 (epstopdf)                    size: 28295 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_8-eps-converted-
 to.pdf xsec/xsec_8.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_8-eps-converted-to.pdf, id=483, 569.12625pt x 385.44pt>
+ <xsec/xsec_8-eps-converted-to.pdf, id=485, 569.12625pt x 385.44pt>
 File: xsec/xsec_8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_8-eps-converted-to.pdf>
-Package pdftex.def Info: xsec/xsec_8-eps-converted-to.pdf used on input line 65
-9.
+Package pdftex.def Info: xsec/xsec_8-eps-converted-to.pdf used on input line 67
+8.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [28 <./xsec/xsec_8-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_9.eps>
@@ -1428,14 +1458,14 @@ Package epstopdf Info: Source file: <xsec/xsec_9.eps>
 (epstopdf)                    size: 28036 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_9-eps-converted-
 to.pdf xsec/xsec_9.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_9-eps-converted-to.pdf, id=493, 569.12625pt x 385.44pt>
+ <xsec/xsec_9-eps-converted-to.pdf, id=495, 569.12625pt x 385.44pt>
 File: xsec/xsec_9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_9-eps-converted-to.pdf>
-Package pdftex.def Info: xsec/xsec_9-eps-converted-to.pdf used on input line 65
-9.
+Package pdftex.def Info: xsec/xsec_9-eps-converted-to.pdf used on input line 67
+8.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [29 <./xsec/xsec_9-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_10.eps>
@@ -1446,14 +1476,14 @@ Package epstopdf Info: Source file: <xsec/xsec_10.eps>
 (epstopdf)                    size: 27910 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_10-eps-converted
 -to.pdf xsec/xsec_10.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_10-eps-converted-to.pdf, id=504, 569.12625pt x 385.44pt>
+ <xsec/xsec_10-eps-converted-to.pdf, id=506, 569.12625pt x 385.44pt>
 File: xsec/xsec_10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_10-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_10-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [30 <./xsec/xsec_10-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_11.eps>
@@ -1464,14 +1494,14 @@ Package epstopdf Info: Source file: <xsec/xsec_11.eps>
 (epstopdf)                    size: 27866 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_11-eps-converted
 -to.pdf xsec/xsec_11.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_11-eps-converted-to.pdf, id=514, 569.12625pt x 385.44pt>
+ <xsec/xsec_11-eps-converted-to.pdf, id=516, 569.12625pt x 385.44pt>
 File: xsec/xsec_11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_11-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_11-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [31 <./xsec/xsec_11-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_12.eps>
@@ -1482,14 +1512,14 @@ Package epstopdf Info: Source file: <xsec/xsec_12.eps>
 (epstopdf)                    size: 28037 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_12-eps-converted
 -to.pdf xsec/xsec_12.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_12-eps-converted-to.pdf, id=524, 569.12625pt x 385.44pt>
+ <xsec/xsec_12-eps-converted-to.pdf, id=526, 569.12625pt x 385.44pt>
 File: xsec/xsec_12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_12-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_12-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [32 <./xsec/xsec_12-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_13.eps>
@@ -1500,14 +1530,14 @@ Package epstopdf Info: Source file: <xsec/xsec_13.eps>
 (epstopdf)                    size: 28269 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_13-eps-converted
 -to.pdf xsec/xsec_13.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_13-eps-converted-to.pdf, id=534, 569.12625pt x 385.44pt>
+ <xsec/xsec_13-eps-converted-to.pdf, id=536, 569.12625pt x 385.44pt>
 File: xsec/xsec_13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_13-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_13-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [33 <./xsec/xsec_13-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_14.eps>
@@ -1518,14 +1548,14 @@ Package epstopdf Info: Source file: <xsec/xsec_14.eps>
 (epstopdf)                    size: 27727 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_14-eps-converted
 -to.pdf xsec/xsec_14.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_14-eps-converted-to.pdf, id=545, 569.12625pt x 385.44pt>
+ <xsec/xsec_14-eps-converted-to.pdf, id=547, 569.12625pt x 385.44pt>
 File: xsec/xsec_14-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_14-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_14-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [34 <./xsec/xsec_14-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_15.eps>
@@ -1536,14 +1566,14 @@ Package epstopdf Info: Source file: <xsec/xsec_15.eps>
 (epstopdf)                    size: 28102 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_15-eps-converted
 -to.pdf xsec/xsec_15.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_15-eps-converted-to.pdf, id=555, 569.12625pt x 385.44pt>
+ <xsec/xsec_15-eps-converted-to.pdf, id=557, 569.12625pt x 385.44pt>
 File: xsec/xsec_15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_15-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_15-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [35 <./xsec/xsec_15-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_16.eps>
@@ -1554,14 +1584,14 @@ Package epstopdf Info: Source file: <xsec/xsec_16.eps>
 (epstopdf)                    size: 27992 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_16-eps-converted
 -to.pdf xsec/xsec_16.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_16-eps-converted-to.pdf, id=566, 569.12625pt x 385.44pt>
+ <xsec/xsec_16-eps-converted-to.pdf, id=568, 569.12625pt x 385.44pt>
 File: xsec/xsec_16-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_16-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_16-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [36 <./xsec/xsec_16-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_17.eps>
@@ -1572,14 +1602,14 @@ Package epstopdf Info: Source file: <xsec/xsec_17.eps>
 (epstopdf)                    size: 28295 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_17-eps-converted
 -to.pdf xsec/xsec_17.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_17-eps-converted-to.pdf, id=576, 569.12625pt x 385.44pt>
+ <xsec/xsec_17-eps-converted-to.pdf, id=578, 569.12625pt x 385.44pt>
 File: xsec/xsec_17-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_17-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_17-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [37 <./xsec/xsec_17-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_18.eps>
@@ -1590,14 +1620,14 @@ Package epstopdf Info: Source file: <xsec/xsec_18.eps>
 (epstopdf)                    size: 27919 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_18-eps-converted
 -to.pdf xsec/xsec_18.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_18-eps-converted-to.pdf, id=586, 569.12625pt x 385.44pt>
+ <xsec/xsec_18-eps-converted-to.pdf, id=588, 569.12625pt x 385.44pt>
 File: xsec/xsec_18-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_18-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_18-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [38 <./xsec/xsec_18-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_19.eps>
@@ -1608,14 +1638,14 @@ Package epstopdf Info: Source file: <xsec/xsec_19.eps>
 (epstopdf)                    size: 27993 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_19-eps-converted
 -to.pdf xsec/xsec_19.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_19-eps-converted-to.pdf, id=596, 569.12625pt x 385.44pt>
+ <xsec/xsec_19-eps-converted-to.pdf, id=598, 569.12625pt x 385.44pt>
 File: xsec/xsec_19-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_19-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_19-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [39 <./xsec/xsec_19-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_20.eps>
@@ -1626,14 +1656,14 @@ Package epstopdf Info: Source file: <xsec/xsec_20.eps>
 (epstopdf)                    size: 27892 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_20-eps-converted
 -to.pdf xsec/xsec_20.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_20-eps-converted-to.pdf, id=606, 569.12625pt x 385.44pt>
+ <xsec/xsec_20-eps-converted-to.pdf, id=608, 569.12625pt x 385.44pt>
 File: xsec/xsec_20-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_20-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_20-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [40 <./xsec/xsec_20-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_21.eps>
@@ -1644,14 +1674,14 @@ Package epstopdf Info: Source file: <xsec/xsec_21.eps>
 (epstopdf)                    size: 27655 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_21-eps-converted
 -to.pdf xsec/xsec_21.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_21-eps-converted-to.pdf, id=616, 569.12625pt x 385.44pt>
+ <xsec/xsec_21-eps-converted-to.pdf, id=618, 569.12625pt x 385.44pt>
 File: xsec/xsec_21-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_21-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_21-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [41 <./xsec/xsec_21-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_22.eps>
@@ -1662,14 +1692,14 @@ Package epstopdf Info: Source file: <xsec/xsec_22.eps>
 (epstopdf)                    size: 28229 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_22-eps-converted
 -to.pdf xsec/xsec_22.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_22-eps-converted-to.pdf, id=627, 569.12625pt x 385.44pt>
+ <xsec/xsec_22-eps-converted-to.pdf, id=629, 569.12625pt x 385.44pt>
 File: xsec/xsec_22-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_22-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_22-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [42 <./xsec/xsec_22-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_23.eps>
@@ -1680,14 +1710,14 @@ Package epstopdf Info: Source file: <xsec/xsec_23.eps>
 (epstopdf)                    size: 27609 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_23-eps-converted
 -to.pdf xsec/xsec_23.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_23-eps-converted-to.pdf, id=637, 569.12625pt x 385.44pt>
+ <xsec/xsec_23-eps-converted-to.pdf, id=639, 569.12625pt x 385.44pt>
 File: xsec/xsec_23-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_23-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_23-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [43 <./xsec/xsec_23-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_24.eps>
@@ -1698,14 +1728,14 @@ Package epstopdf Info: Source file: <xsec/xsec_24.eps>
 (epstopdf)                    size: 28475 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_24-eps-converted
 -to.pdf xsec/xsec_24.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_24-eps-converted-to.pdf, id=647, 569.12625pt x 385.44pt>
+ <xsec/xsec_24-eps-converted-to.pdf, id=649, 569.12625pt x 385.44pt>
 File: xsec/xsec_24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_24-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_24-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [44 <./xsec/xsec_24-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_25.eps>
@@ -1716,14 +1746,14 @@ Package epstopdf Info: Source file: <xsec/xsec_25.eps>
 (epstopdf)                    size: 27666 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_25-eps-converted
 -to.pdf xsec/xsec_25.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_25-eps-converted-to.pdf, id=657, 569.12625pt x 385.44pt>
+ <xsec/xsec_25-eps-converted-to.pdf, id=659, 569.12625pt x 385.44pt>
 File: xsec/xsec_25-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_25-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_25-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [45 <./xsec/xsec_25-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_26.eps>
@@ -1734,14 +1764,14 @@ Package epstopdf Info: Source file: <xsec/xsec_26.eps>
 (epstopdf)                    size: 27571 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_26-eps-converted
 -to.pdf xsec/xsec_26.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_26-eps-converted-to.pdf, id=667, 569.12625pt x 385.44pt>
+ <xsec/xsec_26-eps-converted-to.pdf, id=669, 569.12625pt x 385.44pt>
 File: xsec/xsec_26-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_26-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_26-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [46 <./xsec/xsec_26-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_27.eps>
@@ -1752,14 +1782,14 @@ Package epstopdf Info: Source file: <xsec/xsec_27.eps>
 (epstopdf)                    size: 27723 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_27-eps-converted
 -to.pdf xsec/xsec_27.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_27-eps-converted-to.pdf, id=677, 569.12625pt x 385.44pt>
+ <xsec/xsec_27-eps-converted-to.pdf, id=679, 569.12625pt x 385.44pt>
 File: xsec/xsec_27-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_27-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_27-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [47 <./xsec/xsec_27-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_28.eps>
@@ -1770,14 +1800,14 @@ Package epstopdf Info: Source file: <xsec/xsec_28.eps>
 (epstopdf)                    size: 27905 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_28-eps-converted
 -to.pdf xsec/xsec_28.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_28-eps-converted-to.pdf, id=689, 569.12625pt x 385.44pt>
+ <xsec/xsec_28-eps-converted-to.pdf, id=691, 569.12625pt x 385.44pt>
 File: xsec/xsec_28-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_28-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_28-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [48 <./xsec/xsec_28-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_29.eps>
@@ -1788,14 +1818,14 @@ Package epstopdf Info: Source file: <xsec/xsec_29.eps>
 (epstopdf)                    size: 27384 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_29-eps-converted
 -to.pdf xsec/xsec_29.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_29-eps-converted-to.pdf, id=699, 569.12625pt x 385.44pt>
+ <xsec/xsec_29-eps-converted-to.pdf, id=701, 569.12625pt x 385.44pt>
 File: xsec/xsec_29-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_29-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_29-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [49 <./xsec/xsec_29-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_30.eps>
@@ -1806,14 +1836,14 @@ Package epstopdf Info: Source file: <xsec/xsec_30.eps>
 (epstopdf)                    size: 27759 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_30-eps-converted
 -to.pdf xsec/xsec_30.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_30-eps-converted-to.pdf, id=709, 569.12625pt x 385.44pt>
+ <xsec/xsec_30-eps-converted-to.pdf, id=711, 569.12625pt x 385.44pt>
 File: xsec/xsec_30-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_30-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_30-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [50 <./xsec/xsec_30-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_31.eps>
@@ -1824,14 +1854,14 @@ Package epstopdf Info: Source file: <xsec/xsec_31.eps>
 (epstopdf)                    size: 28019 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_31-eps-converted
 -to.pdf xsec/xsec_31.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_31-eps-converted-to.pdf, id=719, 569.12625pt x 385.44pt>
+ <xsec/xsec_31-eps-converted-to.pdf, id=721, 569.12625pt x 385.44pt>
 File: xsec/xsec_31-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_31-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_31-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [51 <./xsec/xsec_31-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_32.eps>
@@ -1842,14 +1872,14 @@ Package epstopdf Info: Source file: <xsec/xsec_32.eps>
 (epstopdf)                    size: 27225 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_32-eps-converted
 -to.pdf xsec/xsec_32.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_32-eps-converted-to.pdf, id=729, 569.12625pt x 385.44pt>
+ <xsec/xsec_32-eps-converted-to.pdf, id=731, 569.12625pt x 385.44pt>
 File: xsec/xsec_32-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_32-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_32-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [52 <./xsec/xsec_32-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_33.eps>
@@ -1860,14 +1890,14 @@ Package epstopdf Info: Source file: <xsec/xsec_33.eps>
 (epstopdf)                    size: 27683 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_33-eps-converted
 -to.pdf xsec/xsec_33.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_33-eps-converted-to.pdf, id=739, 569.12625pt x 385.44pt>
+ <xsec/xsec_33-eps-converted-to.pdf, id=741, 569.12625pt x 385.44pt>
 File: xsec/xsec_33-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_33-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_33-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [53 <./xsec/xsec_33-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_34.eps>
@@ -1878,14 +1908,14 @@ Package epstopdf Info: Source file: <xsec/xsec_34.eps>
 (epstopdf)                    size: 27418 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_34-eps-converted
 -to.pdf xsec/xsec_34.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_34-eps-converted-to.pdf, id=750, 569.12625pt x 385.44pt>
+ <xsec/xsec_34-eps-converted-to.pdf, id=752, 569.12625pt x 385.44pt>
 File: xsec/xsec_34-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_34-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_34-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [54 <./xsec/xsec_34-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_35.eps>
@@ -1896,14 +1926,14 @@ Package epstopdf Info: Source file: <xsec/xsec_35.eps>
 (epstopdf)                    size: 27804 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_35-eps-converted
 -to.pdf xsec/xsec_35.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_35-eps-converted-to.pdf, id=760, 569.12625pt x 385.44pt>
+ <xsec/xsec_35-eps-converted-to.pdf, id=762, 569.12625pt x 385.44pt>
 File: xsec/xsec_35-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_35-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_35-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [55 <./xsec/xsec_35-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_36.eps>
@@ -1914,14 +1944,14 @@ Package epstopdf Info: Source file: <xsec/xsec_36.eps>
 (epstopdf)                    size: 27903 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_36-eps-converted
 -to.pdf xsec/xsec_36.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_36-eps-converted-to.pdf, id=770, 569.12625pt x 385.44pt>
+ <xsec/xsec_36-eps-converted-to.pdf, id=772, 569.12625pt x 385.44pt>
 File: xsec/xsec_36-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_36-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_36-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [56 <./xsec/xsec_36-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_37.eps>
@@ -1932,14 +1962,14 @@ Package epstopdf Info: Source file: <xsec/xsec_37.eps>
 (epstopdf)                    size: 27547 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_37-eps-converted
 -to.pdf xsec/xsec_37.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_37-eps-converted-to.pdf, id=780, 569.12625pt x 385.44pt>
+ <xsec/xsec_37-eps-converted-to.pdf, id=782, 569.12625pt x 385.44pt>
 File: xsec/xsec_37-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_37-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_37-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [57 <./xsec/xsec_37-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_38.eps>
@@ -1950,14 +1980,14 @@ Package epstopdf Info: Source file: <xsec/xsec_38.eps>
 (epstopdf)                    size: 28030 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_38-eps-converted
 -to.pdf xsec/xsec_38.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_38-eps-converted-to.pdf, id=790, 569.12625pt x 385.44pt>
+ <xsec/xsec_38-eps-converted-to.pdf, id=792, 569.12625pt x 385.44pt>
 File: xsec/xsec_38-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_38-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_38-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [58 <./xsec/xsec_38-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_39.eps>
@@ -1968,14 +1998,14 @@ Package epstopdf Info: Source file: <xsec/xsec_39.eps>
 (epstopdf)                    size: 28214 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_39-eps-converted
 -to.pdf xsec/xsec_39.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_39-eps-converted-to.pdf, id=800, 569.12625pt x 385.44pt>
+ <xsec/xsec_39-eps-converted-to.pdf, id=802, 569.12625pt x 385.44pt>
 File: xsec/xsec_39-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_39-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_39-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [59 <./xsec/xsec_39-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_40.eps>
@@ -1986,14 +2016,14 @@ Package epstopdf Info: Source file: <xsec/xsec_40.eps>
 (epstopdf)                    size: 27418 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_40-eps-converted
 -to.pdf xsec/xsec_40.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_40-eps-converted-to.pdf, id=811, 569.12625pt x 385.44pt>
+ <xsec/xsec_40-eps-converted-to.pdf, id=813, 569.12625pt x 385.44pt>
 File: xsec/xsec_40-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_40-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_40-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [60 <./xsec/xsec_40-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_41.eps>
@@ -2004,14 +2034,14 @@ Package epstopdf Info: Source file: <xsec/xsec_41.eps>
 (epstopdf)                    size: 27840 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_41-eps-converted
 -to.pdf xsec/xsec_41.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_41-eps-converted-to.pdf, id=821, 569.12625pt x 385.44pt>
+ <xsec/xsec_41-eps-converted-to.pdf, id=823, 569.12625pt x 385.44pt>
 File: xsec/xsec_41-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_41-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_41-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [61 <./xsec/xsec_41-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_42.eps>
@@ -2022,14 +2052,14 @@ Package epstopdf Info: Source file: <xsec/xsec_42.eps>
 (epstopdf)                    size: 27462 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_42-eps-converted
 -to.pdf xsec/xsec_42.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_42-eps-converted-to.pdf, id=832, 569.12625pt x 385.44pt>
+ <xsec/xsec_42-eps-converted-to.pdf, id=834, 569.12625pt x 385.44pt>
 File: xsec/xsec_42-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_42-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_42-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [62 <./xsec/xsec_42-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_43.eps>
@@ -2040,14 +2070,14 @@ Package epstopdf Info: Source file: <xsec/xsec_43.eps>
 (epstopdf)                    size: 28304 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_43-eps-converted
 -to.pdf xsec/xsec_43.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_43-eps-converted-to.pdf, id=842, 569.12625pt x 385.44pt>
+ <xsec/xsec_43-eps-converted-to.pdf, id=844, 569.12625pt x 385.44pt>
 File: xsec/xsec_43-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_43-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_43-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [63 <./xsec/xsec_43-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <xsec/xsec_44.eps>
@@ -2058,14 +2088,14 @@ Package epstopdf Info: Source file: <xsec/xsec_44.eps>
 (epstopdf)                    size: 27848 bytes
 (epstopdf)             Command: <repstopdf --outfile=xsec/xsec_44-eps-converted
 -to.pdf xsec/xsec_44.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
- <xsec/xsec_44-eps-converted-to.pdf, id=852, 569.12625pt x 385.44pt>
+ <xsec/xsec_44-eps-converted-to.pdf, id=854, 569.12625pt x 385.44pt>
 File: xsec/xsec_44-eps-converted-to.pdf Graphic file (type pdf)
 
 <use xsec/xsec_44-eps-converted-to.pdf>
 Package pdftex.def Info: xsec/xsec_44-eps-converted-to.pdf used on input line 6
-59.
+78.
 (pdftex.def)             Requested size: 418.25368pt x 283.27441pt.
  [64 <./xsec/xsec_44-eps-converted-to.pdf>]
 Appendix C.
@@ -2078,16 +2108,16 @@ Package epstopdf Info: Source file: <comparisonRandom/comparison0.eps>
 (epstopdf)                    size: 18525 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n0-eps-converted-to.pdf comparisonRandom/comparison0.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison0-eps-converted-to.pdf, id=862, 569.12625pt x 232.8
+<comparisonRandom/comparison0-eps-converted-to.pdf, id=864, 569.12625pt x 232.8
 7pt>
 File: comparisonRandom/comparison0-eps-converted-to.pdf Graphic file (type pdf)
 
  <use comparisonRandom/comparison0-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison0-eps-converted-to.pdf used
- on input line 678.
+ on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison1.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2098,16 +2128,16 @@ Package epstopdf Info: Source file: <comparisonRandom/comparison1.eps>
 (epstopdf)                    size: 18904 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n1-eps-converted-to.pdf comparisonRandom/comparison1.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison1-eps-converted-to.pdf, id=863, 569.12625pt x 232.8
+<comparisonRandom/comparison1-eps-converted-to.pdf, id=865, 569.12625pt x 232.8
 7pt>
 File: comparisonRandom/comparison1-eps-converted-to.pdf Graphic file (type pdf)
 
  <use comparisonRandom/comparison1-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison1-eps-converted-to.pdf used
- on input line 678.
+ on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison2.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2118,16 +2148,16 @@ Package epstopdf Info: Source file: <comparisonRandom/comparison2.eps>
 (epstopdf)                    size: 18874 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n2-eps-converted-to.pdf comparisonRandom/comparison2.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison2-eps-converted-to.pdf, id=864, 569.12625pt x 232.8
+<comparisonRandom/comparison2-eps-converted-to.pdf, id=866, 569.12625pt x 232.8
 7pt>
 File: comparisonRandom/comparison2-eps-converted-to.pdf Graphic file (type pdf)
 
  <use comparisonRandom/comparison2-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison2-eps-converted-to.pdf used
- on input line 678.
+ on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison3.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2138,16 +2168,16 @@ Package epstopdf Info: Source file: <comparisonRandom/comparison3.eps>
 (epstopdf)                    size: 18546 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n3-eps-converted-to.pdf comparisonRandom/comparison3.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison3-eps-converted-to.pdf, id=865, 569.12625pt x 232.8
+<comparisonRandom/comparison3-eps-converted-to.pdf, id=867, 569.12625pt x 232.8
 7pt>
 File: comparisonRandom/comparison3-eps-converted-to.pdf Graphic file (type pdf)
 
  <use comparisonRandom/comparison3-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison3-eps-converted-to.pdf used
- on input line 678.
+ on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison4.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2158,16 +2188,16 @@ Package epstopdf Info: Source file: <comparisonRandom/comparison4.eps>
 (epstopdf)                    size: 18875 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n4-eps-converted-to.pdf comparisonRandom/comparison4.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison4-eps-converted-to.pdf, id=866, 569.12625pt x 232.8
+<comparisonRandom/comparison4-eps-converted-to.pdf, id=868, 569.12625pt x 232.8
 7pt>
 File: comparisonRandom/comparison4-eps-converted-to.pdf Graphic file (type pdf)
 
  <use comparisonRandom/comparison4-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison4-eps-converted-to.pdf used
- on input line 678.
+ on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison5.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2178,16 +2208,16 @@ Package epstopdf Info: Source file: <comparisonRandom/comparison5.eps>
 (epstopdf)                    size: 18863 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n5-eps-converted-to.pdf comparisonRandom/comparison5.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison5-eps-converted-to.pdf, id=867, 569.12625pt x 232.8
+<comparisonRandom/comparison5-eps-converted-to.pdf, id=869, 569.12625pt x 232.8
 7pt>
 File: comparisonRandom/comparison5-eps-converted-to.pdf Graphic file (type pdf)
 
  <use comparisonRandom/comparison5-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison5-eps-converted-to.pdf used
- on input line 678.
+ on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison6.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2198,16 +2228,16 @@ Package epstopdf Info: Source file: <comparisonRandom/comparison6.eps>
 (epstopdf)                    size: 18969 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n6-eps-converted-to.pdf comparisonRandom/comparison6.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison6-eps-converted-to.pdf, id=868, 569.12625pt x 232.8
+<comparisonRandom/comparison6-eps-converted-to.pdf, id=870, 569.12625pt x 232.8
 7pt>
 File: comparisonRandom/comparison6-eps-converted-to.pdf Graphic file (type pdf)
 
  <use comparisonRandom/comparison6-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison6-eps-converted-to.pdf used
- on input line 678.
+ on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison7.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2218,16 +2248,16 @@ Package epstopdf Info: Source file: <comparisonRandom/comparison7.eps>
 (epstopdf)                    size: 18656 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n7-eps-converted-to.pdf comparisonRandom/comparison7.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison7-eps-converted-to.pdf, id=869, 569.12625pt x 232.8
+<comparisonRandom/comparison7-eps-converted-to.pdf, id=871, 569.12625pt x 232.8
 7pt>
 File: comparisonRandom/comparison7-eps-converted-to.pdf Graphic file (type pdf)
 
  <use comparisonRandom/comparison7-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison7-eps-converted-to.pdf used
- on input line 678.
+ on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison8.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2238,16 +2268,16 @@ Package epstopdf Info: Source file: <comparisonRandom/comparison8.eps>
 (epstopdf)                    size: 18944 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n8-eps-converted-to.pdf comparisonRandom/comparison8.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison8-eps-converted-to.pdf, id=870, 569.12625pt x 232.8
+<comparisonRandom/comparison8-eps-converted-to.pdf, id=872, 569.12625pt x 232.8
 7pt>
 File: comparisonRandom/comparison8-eps-converted-to.pdf Graphic file (type pdf)
 
  <use comparisonRandom/comparison8-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison8-eps-converted-to.pdf used
- on input line 678.
+ on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison9.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2258,16 +2288,16 @@ Package epstopdf Info: Source file: <comparisonRandom/comparison9.eps>
 (epstopdf)                    size: 18881 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n9-eps-converted-to.pdf comparisonRandom/comparison9.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison9-eps-converted-to.pdf, id=871, 569.12625pt x 232.8
+<comparisonRandom/comparison9-eps-converted-to.pdf, id=873, 569.12625pt x 232.8
 7pt>
 File: comparisonRandom/comparison9-eps-converted-to.pdf Graphic file (type pdf)
 
  <use comparisonRandom/comparison9-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison9-eps-converted-to.pdf used
- on input line 678.
+ on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison10.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2278,16 +2308,16 @@ d-to.pdf>
 (epstopdf)                    size: 19054 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n10-eps-converted-to.pdf comparisonRandom/comparison10.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison10-eps-converted-to.pdf, id=872, 569.12625pt x 232.
+<comparisonRandom/comparison10-eps-converted-to.pdf, id=874, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison10-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison10-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison10-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison11.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2298,16 +2328,16 @@ d-to.pdf>
 (epstopdf)                    size: 18887 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n11-eps-converted-to.pdf comparisonRandom/comparison11.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison11-eps-converted-to.pdf, id=873, 569.12625pt x 232.
+<comparisonRandom/comparison11-eps-converted-to.pdf, id=875, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison11-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison11-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison11-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison12.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2318,16 +2348,16 @@ d-to.pdf>
 (epstopdf)                    size: 18992 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n12-eps-converted-to.pdf comparisonRandom/comparison12.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison12-eps-converted-to.pdf, id=874, 569.12625pt x 232.
+<comparisonRandom/comparison12-eps-converted-to.pdf, id=876, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison12-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison12-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison12-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison13.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2338,16 +2368,16 @@ d-to.pdf>
 (epstopdf)                    size: 18923 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n13-eps-converted-to.pdf comparisonRandom/comparison13.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison13-eps-converted-to.pdf, id=875, 569.12625pt x 232.
+<comparisonRandom/comparison13-eps-converted-to.pdf, id=877, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison13-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison13-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison13-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison14.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2358,16 +2388,16 @@ d-to.pdf>
 (epstopdf)                    size: 19006 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n14-eps-converted-to.pdf comparisonRandom/comparison14.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison14-eps-converted-to.pdf, id=876, 569.12625pt x 232.
+<comparisonRandom/comparison14-eps-converted-to.pdf, id=878, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison14-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison14-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison14-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison15.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2378,16 +2408,16 @@ d-to.pdf>
 (epstopdf)                    size: 18933 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n15-eps-converted-to.pdf comparisonRandom/comparison15.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison15-eps-converted-to.pdf, id=877, 569.12625pt x 232.
+<comparisonRandom/comparison15-eps-converted-to.pdf, id=879, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison15-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison15-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison15-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison16.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2398,16 +2428,16 @@ d-to.pdf>
 (epstopdf)                    size: 18918 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n16-eps-converted-to.pdf comparisonRandom/comparison16.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison16-eps-converted-to.pdf, id=878, 569.12625pt x 232.
+<comparisonRandom/comparison16-eps-converted-to.pdf, id=880, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison16-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison16-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison16-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison17.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2418,16 +2448,16 @@ d-to.pdf>
 (epstopdf)                    size: 18827 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n17-eps-converted-to.pdf comparisonRandom/comparison17.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison17-eps-converted-to.pdf, id=879, 569.12625pt x 232.
+<comparisonRandom/comparison17-eps-converted-to.pdf, id=881, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison17-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison17-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison17-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison18.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2438,16 +2468,16 @@ d-to.pdf>
 (epstopdf)                    size: 18810 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n18-eps-converted-to.pdf comparisonRandom/comparison18.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison18-eps-converted-to.pdf, id=880, 569.12625pt x 232.
+<comparisonRandom/comparison18-eps-converted-to.pdf, id=882, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison18-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison18-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison18-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison19.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2458,16 +2488,16 @@ d-to.pdf>
 (epstopdf)                    size: 18619 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n19-eps-converted-to.pdf comparisonRandom/comparison19.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison19-eps-converted-to.pdf, id=881, 569.12625pt x 232.
+<comparisonRandom/comparison19-eps-converted-to.pdf, id=883, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison19-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison19-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison19-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison20.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2478,16 +2508,16 @@ d-to.pdf>
 (epstopdf)                    size: 18561 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n20-eps-converted-to.pdf comparisonRandom/comparison20.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison20-eps-converted-to.pdf, id=882, 569.12625pt x 232.
+<comparisonRandom/comparison20-eps-converted-to.pdf, id=884, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison20-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison20-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison20-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison21.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2498,16 +2528,16 @@ d-to.pdf>
 (epstopdf)                    size: 18672 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n21-eps-converted-to.pdf comparisonRandom/comparison21.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison21-eps-converted-to.pdf, id=883, 569.12625pt x 232.
+<comparisonRandom/comparison21-eps-converted-to.pdf, id=885, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison21-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison21-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison21-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison22.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2518,16 +2548,16 @@ d-to.pdf>
 (epstopdf)                    size: 18674 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n22-eps-converted-to.pdf comparisonRandom/comparison22.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison22-eps-converted-to.pdf, id=884, 569.12625pt x 232.
+<comparisonRandom/comparison22-eps-converted-to.pdf, id=886, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison22-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison22-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison22-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison23.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2538,16 +2568,16 @@ d-to.pdf>
 (epstopdf)                    size: 18606 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n23-eps-converted-to.pdf comparisonRandom/comparison23.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison23-eps-converted-to.pdf, id=885, 569.12625pt x 232.
+<comparisonRandom/comparison23-eps-converted-to.pdf, id=887, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison23-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison23-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison23-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison24.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2558,16 +2588,16 @@ d-to.pdf>
 (epstopdf)                    size: 18558 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n24-eps-converted-to.pdf comparisonRandom/comparison24.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison24-eps-converted-to.pdf, id=886, 569.12625pt x 232.
+<comparisonRandom/comparison24-eps-converted-to.pdf, id=888, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison24-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison24-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison24-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison25.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2578,16 +2608,16 @@ d-to.pdf>
 (epstopdf)                    size: 18619 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n25-eps-converted-to.pdf comparisonRandom/comparison25.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison25-eps-converted-to.pdf, id=887, 569.12625pt x 232.
+<comparisonRandom/comparison25-eps-converted-to.pdf, id=889, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison25-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison25-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison25-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison26.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2598,16 +2628,16 @@ d-to.pdf>
 (epstopdf)                    size: 18646 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n26-eps-converted-to.pdf comparisonRandom/comparison26.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison26-eps-converted-to.pdf, id=888, 569.12625pt x 232.
+<comparisonRandom/comparison26-eps-converted-to.pdf, id=890, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison26-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison26-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison26-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison27.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2618,16 +2648,16 @@ d-to.pdf>
 (epstopdf)                    size: 19241 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n27-eps-converted-to.pdf comparisonRandom/comparison27.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison27-eps-converted-to.pdf, id=889, 569.12625pt x 232.
+<comparisonRandom/comparison27-eps-converted-to.pdf, id=891, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison27-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison27-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison27-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison28.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2638,16 +2668,16 @@ d-to.pdf>
 (epstopdf)                    size: 19165 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n28-eps-converted-to.pdf comparisonRandom/comparison28.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison28-eps-converted-to.pdf, id=890, 569.12625pt x 232.
+<comparisonRandom/comparison28-eps-converted-to.pdf, id=892, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison28-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison28-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison28-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison29.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2658,16 +2688,16 @@ d-to.pdf>
 (epstopdf)                    size: 19212 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n29-eps-converted-to.pdf comparisonRandom/comparison29.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison29-eps-converted-to.pdf, id=891, 569.12625pt x 232.
+<comparisonRandom/comparison29-eps-converted-to.pdf, id=893, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison29-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison29-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison29-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison30.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2678,16 +2708,16 @@ d-to.pdf>
 (epstopdf)                    size: 19189 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n30-eps-converted-to.pdf comparisonRandom/comparison30.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison30-eps-converted-to.pdf, id=892, 569.12625pt x 232.
+<comparisonRandom/comparison30-eps-converted-to.pdf, id=894, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison30-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison30-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison30-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison31.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2698,16 +2728,16 @@ d-to.pdf>
 (epstopdf)                    size: 19200 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n31-eps-converted-to.pdf comparisonRandom/comparison31.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison31-eps-converted-to.pdf, id=893, 569.12625pt x 232.
+<comparisonRandom/comparison31-eps-converted-to.pdf, id=895, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison31-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison31-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison31-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison32.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2718,16 +2748,16 @@ d-to.pdf>
 (epstopdf)                    size: 19076 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n32-eps-converted-to.pdf comparisonRandom/comparison32.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison32-eps-converted-to.pdf, id=894, 569.12625pt x 232.
+<comparisonRandom/comparison32-eps-converted-to.pdf, id=896, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison32-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison32-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison32-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison33.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2738,16 +2768,16 @@ d-to.pdf>
 (epstopdf)                    size: 19158 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n33-eps-converted-to.pdf comparisonRandom/comparison33.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison33-eps-converted-to.pdf, id=895, 569.12625pt x 232.
+<comparisonRandom/comparison33-eps-converted-to.pdf, id=897, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison33-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison33-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison33-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison34.eps>
 (epstopdf)                    date: 2015-12-03 12:16:52
@@ -2758,16 +2788,16 @@ d-to.pdf>
 (epstopdf)                    size: 19119 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n34-eps-converted-to.pdf comparisonRandom/comparison34.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison34-eps-converted-to.pdf, id=896, 569.12625pt x 232.
+<comparisonRandom/comparison34-eps-converted-to.pdf, id=898, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison34-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison34-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison34-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison35.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2778,16 +2808,16 @@ d-to.pdf>
 (epstopdf)                    size: 19012 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n35-eps-converted-to.pdf comparisonRandom/comparison35.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison35-eps-converted-to.pdf, id=897, 569.12625pt x 232.
+<comparisonRandom/comparison35-eps-converted-to.pdf, id=899, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison35-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison35-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison35-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison36.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2798,16 +2828,16 @@ d-to.pdf>
 (epstopdf)                    size: 18987 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n36-eps-converted-to.pdf comparisonRandom/comparison36.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison36-eps-converted-to.pdf, id=898, 569.12625pt x 232.
+<comparisonRandom/comparison36-eps-converted-to.pdf, id=900, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison36-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison36-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison36-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison37.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2818,16 +2848,16 @@ d-to.pdf>
 (epstopdf)                    size: 18983 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n37-eps-converted-to.pdf comparisonRandom/comparison37.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison37-eps-converted-to.pdf, id=899, 569.12625pt x 232.
+<comparisonRandom/comparison37-eps-converted-to.pdf, id=901, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison37-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison37-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison37-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison38.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2838,16 +2868,16 @@ d-to.pdf>
 (epstopdf)                    size: 18751 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n38-eps-converted-to.pdf comparisonRandom/comparison38.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison38-eps-converted-to.pdf, id=900, 569.12625pt x 232.
+<comparisonRandom/comparison38-eps-converted-to.pdf, id=902, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison38-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison38-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison38-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison39.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2858,16 +2888,16 @@ d-to.pdf>
 (epstopdf)                    size: 18741 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n39-eps-converted-to.pdf comparisonRandom/comparison39.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison39-eps-converted-to.pdf, id=901, 569.12625pt x 232.
+<comparisonRandom/comparison39-eps-converted-to.pdf, id=903, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison39-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison39-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison39-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison40.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2878,16 +2908,16 @@ d-to.pdf>
 (epstopdf)                    size: 18733 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n40-eps-converted-to.pdf comparisonRandom/comparison40.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison40-eps-converted-to.pdf, id=902, 569.12625pt x 232.
+<comparisonRandom/comparison40-eps-converted-to.pdf, id=904, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison40-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison40-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison40-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison41.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2898,16 +2928,16 @@ d-to.pdf>
 (epstopdf)                    size: 18698 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n41-eps-converted-to.pdf comparisonRandom/comparison41.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison41-eps-converted-to.pdf, id=903, 569.12625pt x 232.
+<comparisonRandom/comparison41-eps-converted-to.pdf, id=905, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison41-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison41-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison41-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison42.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2918,16 +2948,16 @@ d-to.pdf>
 (epstopdf)                    size: 18758 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n42-eps-converted-to.pdf comparisonRandom/comparison42.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison42-eps-converted-to.pdf, id=904, 569.12625pt x 232.
+<comparisonRandom/comparison42-eps-converted-to.pdf, id=906, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison42-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison42-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison42-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison43.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2938,16 +2968,16 @@ d-to.pdf>
 (epstopdf)                    size: 18801 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n43-eps-converted-to.pdf comparisonRandom/comparison43.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison43-eps-converted-to.pdf, id=905, 569.12625pt x 232.
+<comparisonRandom/comparison43-eps-converted-to.pdf, id=907, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison43-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison43-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison43-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
 Package epstopdf Info: Source file: <comparisonRandom/comparison44.eps>
 (epstopdf)                    date: 2015-12-03 12:16:53
@@ -2958,16 +2988,16 @@ d-to.pdf>
 (epstopdf)                    size: 18743 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparisonRandom/compariso
 n44-eps-converted-to.pdf comparisonRandom/comparison44.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<comparisonRandom/comparison44-eps-converted-to.pdf, id=906, 569.12625pt x 232.
+<comparisonRandom/comparison44-eps-converted-to.pdf, id=908, 569.12625pt x 232.
 87pt>
 File: comparisonRandom/comparison44-eps-converted-to.pdf Graphic file (type pdf
 )
  <use comparisonRandom/comparison44-eps-converted-to.pdf>
 Package pdftex.def Info: comparisonRandom/comparison44-eps-converted-to.pdf use
-d on input line 678.
+d on input line 697.
 (pdftex.def)             Requested size: 418.25368pt x 171.14494pt.
  [65
 
@@ -3005,49 +3035,50 @@ ed-to.pdf>] [79 <./comparisonRandom/comparison41-eps-converted-to.pdf> <./compa
 risonRandom/comparison42-eps-converted-to.pdf> <./comparisonRandom/comparison43
 -eps-converted-to.pdf>] [80 <./comparisonRandom/comparison44-eps-converted-to.p
 df>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 686.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 686.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 705.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 705.
  (./note.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 686.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 686.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 705.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 705.
 Package rerunfilecheck Info: File `note.out' has not changed.
 (rerunfilecheck)             Checksum: BAF912EBCE4C3C1DCBCF17CD95A89A18;2157.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 686.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 705.
  ) 
 Here is how much of TeX's memory you used:
- 21507 strings out of 493109
- 393028 string characters out of 6135010
- 470021 words of memory out of 5000000
- 24341 multiletter control sequences out of 15000+600000
- 18626 words of font info for 74 fonts, out of 8000000 for 9000
+ 21571 strings out of 493109
+ 393833 string characters out of 6135010
+ 471494 words of memory out of 5000000
+ 24401 multiletter control sequences out of 15000+600000
+ 18933 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,54p,491b,421s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on note.pdf (82 pages, 2173570 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on note.pdf (82 pages, 2181546 bytes).
 PDF statistics:
- 1629 PDF objects out of 1728 (max. 8388607)
- 1232 compressed objects within 13 object streams
+ 1634 PDF objects out of 1728 (max. 8388607)
+ 1236 compressed objects within 13 object streams
  169 named destinations out of 1000 (max. 500000)
  718 words of extra memory for PDF output out of 10000 (max. 10000000)
 
