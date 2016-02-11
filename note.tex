@@ -510,9 +510,18 @@ I evaluated explicitly how this effect influences the outcome of this analysis: 
 %Finally, there is no effect on the cross-section and on the spin-density matrix elements given by the choice $F=1$: results obtained with $F=1$ and with $F\neq$1 are compatible for all $W$ and $\cos(\theta)_{CM}$ bins.
 
 
-\chapter{The scenario $F(s,t,u) \neq 1$: systematic effects evaluation}
+\chapter{Effect of cross-section and spin density matrix-elements systematic uncertainty}
 
-In this Chapter, I consider the case with the \decay reaction intensity parametrized with $F(s,t,u) \neq 1$, i.e. excplicitly introducing the Pennington-Szczepaniak extended Veneziano model
+Before moving forward and discuss in detail the results obtained from the analysis of the \decay reaction with the Pennington-Szczepaniak extended Veneziano model, I want to discuss the effect of the systematic effects underlined in the previous Chapter,
+i.e. the fact that the \production reaction cross-section and the density matrix elements obtained from this analysis, using B. Vernansky dataset, do not completely agree with the origina \texttt{g11} analysis.
+
+First, I'll show that the effect is \textbf{not} related to specific choice of $F(s,t,u)$ in the full reaction intensity, i.e. I'll demonstrate that results obtained from this dataset for the above observables are the same for the simplest choice $F=1$ and for the 
+Pennington-Szczepaniak model.
+
+Then, I'll show that, even introducing a random shift in the MC event weights - the only quantities in this analysis that depend on the above observables - the obtained results are compatible, meaning that the actual effect of this systematic shift is not the dominant 
+uncertainty in the analysis.
+ 
+
 
 \section{$F\neq$1}
 
@@ -520,7 +529,7 @@ In the previous Chapter, I evaluated the differential reaction cross-section and
 However, in this analysis I consider $F \neq 1$, by using the Pennington-Szczepaniak extended Veneziano model.
 
 By following the argument introduced in the previous Chapters, one can conclude that, even if these two observables are only related to the \production production reaction, the CLAS acceptance does also depend on the \decay decay kinematics. 
-The effect of $F(s,t,u)$ could therefore manifest in the acceptance evaluation and, thus, in the extraction of the cross-section and of the spin-density matrix elements.
+Therefore, effect of $F(s,t,u)$ could in principle manifest in the acceptance evaluation and, thus, in the extraction of the cross-section and of the spin-density matrix elements, altough this should be an higher-order effect.
 
 Here, I show that actually this does not introduce any significal effect in the measurement of these observables.
 
@@ -533,28 +542,24 @@ F(s,t,u)=A_1(s,t,N)+A_1(s,u,N)+A_1(t,u,N) \; \; \; ,
 \end{equation}
 i.e. I included the first term in the series of Eq.~\ref{eq:fullampl}, corresponding to the presence of the $\rho(770)$ pole. As discussed in the next Chapter, this term is the dominat one in the series that defines $F$ (Eq.\ref{eq:fullampl}).
 I used the nominal expression of the $\pi \pi$ Regge Trajectory (Eq.~\ref{eq:reggenominal}).
+\subsection{Results and discussion}
 
-\subsection{Results}
+The differential cross-section and the spin-density matrix elements extracted from the fits with the $F$ expression given above are reported, for all the $W$ and $\cos(\theta)$ bins in the plots of Appendix~\ref{Appendix:xsec}, blue points.
 
-The differential cross-section and the spin-density matrix elements extracted from the fits with the $F$ expression given above are reported, for all the $W$ and $\cos(\theta)$ bins in the plots of Appendix~\ref{Appendix:xsec} (blue points).
-
-\subsection{Discussion}
-
-Results obtained in the two cases, $F=1$ and $F\neq 1$ are absolutely compatible. This demonstrates that the effect of $F$ in the extraction of the differential reaction cross-section and the spin-density matrix elements is negligible, as expected.
+Results obtained in the two cases, $F=1$ and $F\neq 1$ are compatible. This demonstrates that the effect of $F$ in the extraction of the differential reaction cross-section and the spin-density matrix elements is negligible, as expected.
 
 
 
 \section{Systematic uncertainty in the differential cross-section and spin-density matrix elements}
 
-The differential production cross-section and the spin-density matrix elements for the reaction \production are employed to assign a weight to the MonteCarlo events (generated and accepted): these are employed in the Maximum Likelihood Fit procedure to account
+The differential production cross-section and the spin-density matrix elements for the reaction \production are employed in this analysis to assign a weight to the MonteCarlo events (generated and accepted): these are employed in the Maximum Likelihood Fit procedure to account
 for the dependence of the CLAS acceptance on the production variables ($W$ and $\cos(\theta_{CM})$) and on the \decay decay plane orientation. 
 
 These observables were discussed in the previous Chapter, and compared with those from \cite{Williams:2009ab}. While a good agreement was found for the spin-density matrix elements, the differential reaction cross-section showed discrepancies, thus showing the presence of
 unknown systematic effects.
 
-For a given $W$ bin, a constant shift in the differential cross-section is not an issue in this analysis, since weights can be re-scaled arbitrarly without any effect in the Likelihood
-computation. Therefore, any systematic effect in the overall events normalization can be neglected. 
-However, a $\cos(\theta_{CM})$-dependent fluctuation would introduce a systematic effect on the Likelihood normalization term. 
+For a given $W$ bin, a constant shift in the differential cross-section is not an issue in this analysis, since weights can be globally re-scaled without any effect in the Likelihood computation. 
+However, a $\cos(\theta_{CM})$-dependent fluctuation would introduce a systematic effect on the Likelihood normalization term, since the \decay reaction analysis is performed by merging together, for the same $W$-bin, all the events in the $\cos(\theta_{CM})$ range.
 
 In this Section, I discuss how this effect would affect the Maximum-Likelihood fit results.
 
@@ -564,20 +569,23 @@ I used the simplest parametrization of the decay intensity presented before, tha
 \begin{equation}
 F(s,t,u)=A_1(s,t,N)+A_1(s,u,N)+A_1(t,u,N) \; \; \; ,
 \end{equation}
+I used the nominal expression of the $\pi \pi$ Regge Trajectory (Eq.~\ref{eq:reggenominal}).
 
 For each $W$ bins, I performed two Maximum-Likelihood fits. In the first, I calculated MonteCarlo weights starting with the cross-section and spin-density matrix elements obtained from \cite{Williams:2009ab}.
-In the second, instead, the weights were re-computed with the above observables smeared by $10\%$. Smearing was applied independently in each $W$ and $\cos(\theta_{CM})$ bin.
+In the second, instead, the weights were re-computed with the above observables randomly smeared by $10\%$. Smearing was applied independently in each $W$ and $\cos(\theta_{CM})$ bin.
 
-\subsection{Results}
+\subsection{Results and discussion}
+
+The $F$ parametrization here employed does not include any free parameter. Therefore, to compare the two cases, the one with nominal weights with the one with smeared weights, I decided to look at the pion-pairs invariant mass distributions, comparing data with the fit results.
+The choice of these observables derives from the fact that they enter directly in the parametrization of the \decay intensity that I employ in this analysis.
+
+For each $W$ bin, the obtained results are reported in Appendix~\ref{Appendix:C}: blue points are data, red line is the fit result with nominal weights, green line is the fit result with smeared weights. 
+Clearly, the two curves are almost equivalent in all $W$ bins: this demonstrates that the effect of the systematic uncertainty on the cross-section and on the spin-density matrix elements on the event weights is negligible, and do not affect the fit results.
+
+Furthermore, the good agreement between the fit results and data demonstrates the validity of the Pennington-Sczepaniak model in the description of the \decay reaction: this is discussed in detail in the next Chapter.
 
 
-\subsection{Discussion}
-\section{Conclusions}
-
-
-
-In this analysis, therefore, all maximum-likelihood fits have been performed by computing the $w$ weight for the MonteCarlo events (see Sec.~\ref{sec:application}) using results from \cite{Williams:2009ab}.
-
+\chapter{Application of the Pennington-Szczepaniak model}
 
 
 \begin{thebibliography}{99}
