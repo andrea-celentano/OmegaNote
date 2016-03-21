@@ -26,5 +26,5 @@
 \contentsline {chapter}{\numberline {5}Application of the Pennington-Szczepaniak model}{19}{chapter.5}
 \contentsline {chapter}{\numberline {A}Theorem}{21}{appendix.A}
 \contentsline {paragraph}{Proof}{21}{section*.3}
-\contentsline {chapter}{\numberline {B}Data agreement with previous results: plots}{22}{appendix.B}
-\contentsline {chapter}{\numberline {C}Cross-section systematic effects}{67}{appendix.C}
+\contentsline {chapter}{\numberline {B}Data agreement with previous results: plots}{23}{appendix.B}
+\contentsline {chapter}{\numberline {C}Cross-section systematic effects}{68}{appendix.C}

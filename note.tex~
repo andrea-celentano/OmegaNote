@@ -15,7 +15,7 @@
 \usepackage{calc} 
 \usepackage{forloop}
 \usepackage{amsthm}
-
+\usepackage[makeroom]{cancel}
 
 % This computes first argument as result of evaluation of second
 % argument.
@@ -50,7 +50,7 @@
 \newcommand{\printteolike}{
 Assume a reaction $R$, with the final state phase-space $\mathbf{\tau}$ being factorized as $\mathbf{\tau}~=~\mathbf{\tau_1}~\cdot~\mathbf{\tau_2}$.
 Assume also that the intensity $I$ for the reaction can written as $I=I_1(\tau_1) \cdot I_2(\tau_2,\vec{x})$,
-where the first factor does not include free parameters, while the second does. Then, the likelihood function obtained from the full intensity $I$ is equivalent to the
+where the first factor does not include free parameters, while the second does. Then, the Likelihood function obtained from the full intensity $I$ is equivalent to the
 likelihood obtained by considering the $I_2$ factor only, provided that a weight $k_i$ is assigned to each of the MonteCarlo events -generated and reconstructed -, with $k_i=I_1(\tau^i_1)$, and that the average number of measured events is computed as:
 \begin{equation}
 \mu(\vec{x})=\frac{\sum_{i=1}^{N_{acc}}k_iI_2(\tau_2,\vec{x})}{N_{gen}}
@@ -306,7 +306,7 @@ The goals of this analysis are the following:
 In this section, I describe the procedure that I adopted to fit the extended Veneziano model to the \decay decay, via an extended maximum likelihood fit.
 In particular, I discuss what is the role of the production kinematic variables ($W$ and $\cos\theta_{CM}$) and observables (differential cross section and spin-density matrix elements).
 
-\section{Extended maximum likelihood fits}
+\section{Extended maximum likelihood fits}\label{sec:likelihood}
 
 The goal of an extended maximum likelihood procedure is to fit a parametrized intensity for a certain reaction to a set of unbinned data, in order to extract the value of the corresponding free parameters and obtain 
 the acceptance-corrected event yield. The intensity normalization is always a free parameter in the fit.
@@ -582,10 +582,12 @@ The choice of these observables derives from the fact that they enter directly i
 For each $W$ bin, the obtained results are reported in Appendix~\ref{Appendix:C}: blue points are data, red line is the fit result with nominal weights, green line is the fit result with smeared weights. 
 Clearly, the two curves are almost equivalent in all $W$ bins: this demonstrates that the effect of the systematic uncertainty on the cross-section and on the spin-density matrix elements on the event weights is negligible, and do not affect the fit results.
 
-Furthermore, the good agreement between the fit results and data demonstrates the validity of the Pennington-Sczepaniak model in the description of the \decay reaction: this is discussed in detail in the next Chapter.
+Furthermore, the good agreement between data and the fit results demonstrates the validity of the Pennington-Sczepaniak model in the description of the \decay reaction: this is discussed in detail in the next Chapter.
 
 
-\chapter{The scenario $F(s,t,u) \neq 1$}
+\chapter{Application of the Pennington-Szczepaniak model}
+
+
 
 
 \begin{thebibliography}{99}
@@ -663,11 +665,29 @@ with the Hall B Photon Tagger.'' CLAS Note 2005-002.
 
 \paragraph{Proof}
 
+The Likelihood function for the reaction $R$, given the intensity $I$, is:
 
-
-
-
-
+\begin{equation}
+\mathcal{L} = \frac{{\mu(\vec{x})}^n e^{-\mu(\vec{x})}}{n!} \prod_{i=1}^{n}\frac{ I(\tau_i,\vec{x}) \cdot \varepsilon(\tau_i) } {\int I(\tau,\vec{x}) \cdot \varepsilon(\tau) d\tau}
+\end{equation}
+(see Section~\ref{sec:likelihood}). Again, by noting that $\varepsilon_i=1$ for the measured events, and by making use of Eq.~\ref{eq:PWA_TEO-3}, this simplifies to:
+\begin{equation}
+\mathcal{L} = \frac{e^{-\mu(\vec{x})}}{n!} \prod_{i=1}^{n}I(\tau_i,\vec{x}) 
+\end{equation}
+Taking the natural logarithm and neglecting constant additive factors:
+\begin{equation}
+-\log(\mathcal{L}) = \mu(\vec{x}) - \sum_{i=1}^n \log I(\tau_i,\vec{x}) = \mu(\vec{x}) - \sum_{i=1}^n \log I_2(\tau_i,\vec{x})  - \cancel{\sum_{i=1}^n \log I_1(\tau_i)} \; \; ,
+\end{equation}
+where the last constant term has been neglected.
+The value of $\mu(\vec{x})$ is computed via MonteCarlo integration, as:
+\begin{equation}
+\mu(\vec{x}) \propto \frac{1}{N_{gen}} \sum_{i=1}^{N_{acc}} I(\tau_i,\vec{x}) = \frac{1}{N_{gen}}\sum_{i=1}^{N_{acc}} I_2(\tau_i,\vec{x}) I_1(\tau_i) =  \frac{1}{N_{gen}}\sum_{i=1}^{N_{acc}} I_2(\tau_i,\vec{x}) k_i \; ,
+\end{equation}
+where the definition of the event-weight $k_i$ has been used.
+Therefore:
+\begin{equation}
+-\log(\mathcal{L}) = \frac{1}{N_{gen}}\sum_{i=1}^{N_{acc}} I_2(\tau_i,\vec{x}) k_i - \sum_{i=1}^n \log I_2(\tau_i,\vec{x})
+\end{equation}
 \chapter{Data agreement with previous results: plots}\label{Appendix:xsec}
 %\includepdf[pages={1-},scale=0.75]{out.pdf}
 
